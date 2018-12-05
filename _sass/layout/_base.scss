@@ -27,14 +27,6 @@ a {
     }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    @include sans-serif-font;
-}
 
 p {
     font-size: 16px;
@@ -72,11 +64,9 @@ aside {
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
-    @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-primary;
-        @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
@@ -147,9 +137,19 @@ aside {
     }
 }
 
+.navbar-center {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-collapse--center {
+    text-align: center;
+}
+
 // Homepage Header
 
-header {
+.site-hero {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -158,48 +158,46 @@ header {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
-    .header-content {
+    &__content {
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
-        .header-content-inner {
-            h1 {
-                font-weight: 700;
-                text-transform: uppercase;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
+
+        &-inner {
             hr {
                 margin: 30px auto;
             }
-            p {
-                font-weight: 300;
-                color: rgba(white, .7);
-                font-size: 16px;
-                margin-bottom: 50px;
-            }
         }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 10rem;
+        font-weight: 700;
+    }
+
+    &__subtitle {
+        font-size: 4rem;
+        font-weight: 300;
+        color: rgba(white, .7);
+        margin-bottom: 50px;
     }
     @media (min-width: 768px) {
         min-height: 100%;
-        .header-content {
+        &__content {
             position: absolute;
             top: 50%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             padding: 0 50px;
-            .header-content-inner {
+            &-inner {
                 max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
-                p {
-                    font-size: 18px;
-                    max-width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
             }
         }
     }
@@ -246,7 +244,6 @@ header {
             transform: translateY(-50%);
             .project-category,
             .project-name {
-                @include sans-serif-font;
                 padding: 0 15px;
             }
             .project-category {
@@ -304,7 +301,6 @@ header {
 }
 
 .btn {
-    @include sans-serif-font;
     border: none;
     border-radius: 300px;
     font-weight: 700;

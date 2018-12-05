@@ -1,0 +1,5 @@
+@mixin img-ratio($width,$height) {
+    &:after {
+        padding-bottom: ($height/$width) * 100%;
+    }
+}

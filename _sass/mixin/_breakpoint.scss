@@ -1,0 +1,69 @@
+@mixin breakpoint($name) {
+    @if $name == "xs" {
+
+    // -------- XXS MODE ------------
+
+        @if $col-xxs-support == false {
+            // XS !?
+            $error: "WARNING RTBF-BREAKPOINT : \A Mobile first principle is not respected! You should not use a media query for XS as it is supposed to be the default. In rare cases, you can choose to apply properties only to XS devices... To do so use 'xs-only'...";
+            @include rtbf-warning($error);
+
+        } @else {
+            
+            // @warn "XXS MODE ACTIVATED";
+            // xs mode exists only if xxs mode is supported
+            @media (min-width: $screen-xs) {
+                @content;
+            }
+        }
+
+    } @else if $name == "xxs-only" {
+        @if $col-xxs-support == true {
+            // @warn "Experimental fonctionnality : Your website have to enable XXS Grid.";
+            // XXS devices only... Try to avoid (no inheritance)
+            @media (max-width: $screen-xxs-max) {
+                @content;
+            }
+        } @else {
+            @warn 'Need to declare ($)col-xxs-support on true';
+        }
+
+    // -------- / XXS MODE ------------    
+
+    } @else if $name == "xs-only" {
+        
+        // XS devices only... Try to avoid (no inheritance)
+        @media (max-width: $screen-xs-max) {
+            @content;
+        }
+        
+    } @else if $name == "sm" {
+        
+        // Small devices (tablets, 768px and up)
+        @media (min-width: $screen-sm) {
+            @content;
+        }
+        
+    } @else if $name == "md" {
+        
+        // Medium devices (desktops, 992px and up)
+        @media (min-width: $screen-md) {
+            @content;
+        }
+        
+    } @else if $name == "lg" {
+        
+        // Large devices (large desktops, 1200px and up)
+        @media (min-width: $screen-lg) {
+            @content;
+        }
+        
+    } @else if $name == "xl" {
+        
+        // Large devices (large desktops, 1400px and up)
+        @media (min-width: $screen-xl) {
+            @content;
+        }
+        
+    }
+}
