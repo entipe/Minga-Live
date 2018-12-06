@@ -2,6 +2,7 @@
     <div class="site-hero__content">
         <div class="site-hero__content-inner">
             <h1 class="site-hero__title js-title">{{site.data.i18n[page.lang].title}}</h1>
+            <hr>
             <p class="site-hero__subtitle js-subtitle">{{site.data.i18n[page.lang].subtitle}}</p>
             <a href="#" class="btn btn-primary btn-xl">{{site.data.i18n[page.lang].watchtrailer}}</a>
         </div>
@@ -21,3 +22,13 @@
       </figure>
     </div>
 </header>
+<div class="trailer-front">
+  <div class="trailer-front__content">
+    <div class="trailer-front__embed">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe data-src="https://player.vimeo.com/video/304387541?autoplay=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="js-close">&times;</button>
+</div>
