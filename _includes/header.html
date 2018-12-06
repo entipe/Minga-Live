@@ -1,10 +1,23 @@
-<header class="site-hero">
+<header class="site-hero" id="trailer">
     <div class="site-hero__content">
         <div class="site-hero__content-inner">
-            <h1 class="site-hero__title">{{site.data.i18n[page.lang].title}}</h1>
-            <hr>
-            <p class="site-hero__subtitle">{{site.data.i18n[page.lang].subtitle}}</p>
+            <h1 class="site-hero__title js-title">{{site.data.i18n[page.lang].title}}</h1>
+            <p class="site-hero__subtitle js-subtitle">{{site.data.i18n[page.lang].subtitle}}</p>
             <a href="#" class="btn btn-primary btn-xl">{{site.data.i18n[page.lang].watchtrailer}}</a>
         </div>
+    </div>
+    <div class="site-hero__slider">
+      <figure style="background: #EAD6A9;">
+        <img
+          data-sizes="100vw"
+          data-srcset="/img/banner/1--992-min.jpg 992w,
+                       /img/banner/1--1200-min.jpg 1200w,
+                       /img/banner/1--1600-min.jpg 1600w,
+                       /img/banner/1--1920-min.jpg 1920w"
+          class="img-responsive lazyload appear"
+          alt="ALT !!"
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        >
+      </figure>
     </div>
 </header>

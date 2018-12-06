@@ -8,3 +8,20 @@ url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - dploy.yaml
+  - dploy.yml
+  - php/
+  - resize.sh
+  - CNAME
+  - resize/
+  - node_modules/
+  - src/
+  - .yo-rc.json
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - webpack.prod.js
