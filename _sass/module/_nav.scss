@@ -14,7 +14,9 @@ $color-bg: rgba(black, .8);
 	}
 
 	&.is-active &__list {
-		display: block;
+		height: auto;
+		width: auto;
+		opacity: 1;
 		@include transform(translate(-50%, -50%));
 		position: absolute;
 		top: 50%;
@@ -22,11 +24,12 @@ $color-bg: rgba(black, .8);
 	}
 
 	&__link {
-		font-size: 20px;
+		font-size: 26px;
 		text-transform: uppercase;
 		font-weight: bold;
-		padding: 10px;
+		padding: 15px;
 		display: block;
+		color: #fff;
 
 		> span {
 			position: relative;
@@ -43,6 +46,7 @@ $color-bg: rgba(black, .8);
 		}
 
 		&.active {
+			color: #fff;
 			> span {
 				&:before {
 					content: "";
@@ -52,7 +56,13 @@ $color-bg: rgba(black, .8);
 	}
 
 	&__list {
-		display: none;
+		margin: 0;
+		overflow: hidden;
+		height: 0;
+		width: 0;
+		opacity: 0;
+		@include transition(opacity .3s linear);
+		display: block;
 	}
 
 	&__toggle {

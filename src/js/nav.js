@@ -39,6 +39,7 @@ define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
     **/
     const toggleNavXS = function (e) {
 
+        document.querySelector(NAV_CLASS).classList.toggle('is-active');
         document.querySelector(NAV_TOGGLE_CLASS).classList.toggle('is-active');
 
         e.preventDefault();
