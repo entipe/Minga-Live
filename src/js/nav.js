@@ -1,8 +1,7 @@
 define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
 
-    const NAV_LINK_CLASS = '.js-page-scroll';
+    const NAV_LINK_CLASS = '.js-nav-link';
     const NAV_CLASS = '.js-nav';
-    const NAV_XS_CLASS = '.js-nav-xs';
     const NAV_TOGGLE_CLASS = '.js-nav-toggle';
     const SCROLL_BEHAVIOR = 'smooth';
 
@@ -15,7 +14,7 @@ define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
         listen();
 
         window.fitText(document.querySelector('.js-title'), 0.8, {minFontSize: 60});
-        window.fitText(document.querySelector('.js-subtitle'), 2, {minFontSize: 20});
+        window.fitText(document.querySelector('.js-subtitle'), 2, {minFontSize: 20, maxFontSize: 40});
 
     }
 
@@ -40,7 +39,6 @@ define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
     **/
     const toggleNavXS = function (e) {
 
-        document.querySelector(NAV_XS_CLASS).classList.toggle('is-active');
         document.querySelector(NAV_TOGGLE_CLASS).classList.toggle('is-active');
 
         e.preventDefault();

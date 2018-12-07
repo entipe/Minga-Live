@@ -9,18 +9,18 @@
 @import "mixins";
 
 // Reset and dependencies
-@import "normalize";
-//@import "print";
+//@import "normalize";
+@import "print";
 //@import "glyphicons";
 
 // Core CSS
-@import "scaffolding";
-@import "type";
+//@import "scaffolding";
+//@import "type";
 //@import "code";
-@import "grid";
+//@import "grid";
 //@import "tables";
-//@import "forms";
-@import "buttons";
+@import "forms";
+//@import "buttons";
 
 // Components
 //@import "component-animations";
@@ -41,9 +41,9 @@
 //@import "media";
 //@import "list-group";
 //@import "panels";
-//@import "responsive-embed";
+@import "responsive-embed";
 //@import "wells";
-//@import "close";
+@import "close";
 
 // Components w/ JavaScript
 //@import "modals";
@@ -52,5 +52,5 @@
 //@import "carousel";
 
 // Utility classes
-@import "utilities";
-@import "responsive-utilities";
+//@import "utilities";
+//@import "responsive-utilities";

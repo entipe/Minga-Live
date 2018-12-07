@@ -1,10 +1,9 @@
-import VanillaScrollspy from 'vanillajs-scrollspy';
-
 import lazySizes from 'lazysizes';
 import picturefill from 'picturefill';
 
-const navbar = document.querySelector('.js-nav');
-const scrollspy = new VanillaScrollspy(navbar);
-scrollspy.init();
+const webfont = require('./webfont.js');
+webfont.init(['PT Sans', 'fontello'], ['/css/font.css'])
 
-const nav = require('./nav.js');
+require('./scroll.js');
+require('./nav.js');
+require('./trailer.js');

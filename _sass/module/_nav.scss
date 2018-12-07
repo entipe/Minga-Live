@@ -1,0 +1,77 @@
+$color-bg: rgba(black, .8);
+
+.site-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 900;
+
+	&.is-active {
+		height: 100%;
+		background: $color-bg;
+	}
+
+	&.is-active &__list {
+		display: block;
+		@include transform(translate(-50%, -50%));
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+
+	&__link {
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 10px;
+
+		> span {
+			position: relative;
+
+			&:before {
+				height: 2px;
+				background-color: $brand-primary;
+				position: absolute;
+				bottom: -4px;
+				left: 0;
+				right: 0;
+				display: block;
+			}
+		}
+
+		&.active {
+			> span {
+				&:before {
+					content: "";
+				}
+			}
+		}
+	}
+
+	&__list {
+		display: none;
+	}
+
+	&__toggle {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 20px;
+		background: transparent;
+		border: 0;
+		box-shadow: none;
+
+		> .burger {
+			@include burger(30px, 3px, 5px, #fff);
+		}
+
+		&.is-active {
+
+			> .burger {
+				@include burger-to-cross;
+			}
+		}
+	}
+}
