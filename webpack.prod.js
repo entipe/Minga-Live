@@ -22,7 +22,8 @@ module.exports = {
 				loader: 'babel-loader',
 
 				options: {
-					plugins: ['syntax-dynamic-import']
+					plugins: ['syntax-dynamic-import'],
+					babelrc: true
 				},
 
 				test: /\.js$/
