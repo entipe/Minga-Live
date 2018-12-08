@@ -22,16 +22,7 @@ module.exports = {
 				loader: 'babel-loader',
 
 				options: {
-					plugins: ['syntax-dynamic-import'],
-
-					presets: [
-						[
-							'env',
-							{
-								modules: false
-							}
-						]
-					]
+					plugins: ['syntax-dynamic-import']
 				},
 
 				test: /\.js$/
@@ -40,6 +31,8 @@ module.exports = {
 	},
 
 	mode: 'production',
+
+	devtools : 'none',
 
 	optimization: {
 		splitChunks: {
