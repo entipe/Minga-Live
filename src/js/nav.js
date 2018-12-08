@@ -3,6 +3,7 @@ define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
     const NAV_LINK_CLASS = '.js-nav-link';
     const NAV_CLASS = '.js-nav';
     const NAV_TOGGLE_CLASS = '.js-nav-toggle';
+    const NAV_SCROLL_CLASS = '.js-page-scroll';
     const SCROLL_BEHAVIOR = 'smooth';
 
     /**
@@ -23,7 +24,7 @@ define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
     * @return void
     **/
     const listen = function () {
-        let $navLinkList = document.querySelectorAll(NAV_LINK_CLASS);
+        let $navLinkList = document.querySelectorAll(NAV_SCROLL_CLASS);
 
         for (var i = $navLinkList.length - 1; i >= 0; i--) {
             $navLinkList[i].addEventListener('click', onClickNav);
@@ -67,7 +68,8 @@ define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
     }
 
     const hideNav = function () {
-        document.querySelector(NAV_TOGGLE_CLASS).click()
+        document.querySelector(NAV_TOGGLE_CLASS).classList.remove('is-active');
+        document.querySelector(NAV_CLASS).classList.remove('is-active');
     }
 
     /**

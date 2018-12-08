@@ -1,18 +1,25 @@
 <section id="contact" class="section-contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Contactez-nous</h2>
                 <p>Dans la mesure de leur disponibilité, Pauline et Damien peuvent se rendre à votre projection pour échanger sur le contenu du film. Une animation pédagogique peut également être organisée en partenariat avec Quinoa asbl.</p>
             </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <ul class="list-inline">
-                    <li>
-                        +32 484 522 660 - Damien Charles
-                        +32 485 67 45 36 - Pauline Dutron
+            <div class="col-xs-12 text-center">
+                <ul class="list-inline contact">
+                    <li>  
+                        <span class="contact__icon">
+                            <i class="icon icon-phone"></i>
+                        </span>
+                        {% for phone in site.phone %}
+                        <a href="{{phone.attr}}">{{phone.value}}</a> {{phone.author}}<br>
+                        {% endfor %}
                     </li>
                     <li>
-                        info@minga-docu.net
+                        <span class="contact__icon contact__icon--adjust">
+                            <i class="icon icon-mail"></i>
+                        </span>
+                        {{site.email}}
                     </li>
                 </ul>
             </div>

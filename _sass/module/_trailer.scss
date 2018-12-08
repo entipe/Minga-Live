@@ -44,8 +44,6 @@
 
   &__close {
     position: absolute;
-    bottom: 0;
-    right: -80px;
     z-index: 1000;
     background: transparent;
     border: 0;
@@ -56,16 +54,14 @@
     border: 1px solid transparent;
     @include transition(border-color .2s linear);
 
+    top: -70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
     &:focus,
     &:hover {
       border-color: #444;
-    }
-
-    @include breakpoint('xs-only') {
-      bottom: auto;
-      right: 0;
-      top: -20px;
-      font-size: 26px;
     }
   }
 
