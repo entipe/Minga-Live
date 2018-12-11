@@ -5,6 +5,25 @@ fr:
     <p class="big">De la <strong>Patagonie aux montagnes du Mexique</strong>, des communautés se soulèvent. Elles dénoncent la <strong>destruction de leurs territoires et de leurs vies</strong>. Puisant dans leurs héritages culturels, elles s'organisent pour arrêter le carnage et <strong>créer des solutions inspirantes</strong>. Le documentaire Minga est un écho de ces voix de résistance.</p>
     <p class="big">Pauline et Damien sont partis <strong>deux ans à leur rencontre</strong> et leur ont laissé une liberté de parole totale. Le tournage a été réalisé avec la plus faible empreinte écologique possible (voies terrestres et maritimes uniquement).</p>
   watchtrailer: Regarder le trailer
+  length: Durée
+  length_value: Vidéo (25fps) - 76 m 36 sec
+  takeshot: Prise de vue
+  takeshot_value: Numérique
+  film_format_ratio: Format de projection Ratio
+  film_format_ratio_value: FullHD - 1920x1080
+  vo_es: Version original en espagnol
+  vo_stfr: Version sous-titrée en français
+  film_location: Lieu de tournage
+  film_location_value: Brésil, Argentine, Chili, Bolivie, Pérou, Équateur, Colombie, Honduras, Guatemala et Mexique.
+  film_language: Langue de tournage
+  film_language_value: Espagnol, Portugais, Guarani
+  contact_body: >
+    Dans la mesure de leur disponibilité, Pauline et Damien peuvent se rendre à votre projection pour échanger sur le contenu du film. Une animation pédagogique peut également être organisée en partenariat avec Quinoa asbl.
+  contact_title: Contactez-nous
+  lastname: Nom
+  email: Email
+  message: Votre message  
+
 es:
   title: Minga
   subtitle: ES Lorem ipsum dolor sit amet

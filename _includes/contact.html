@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Contactez-nous</h2>
-                <p>Dans la mesure de leur disponibilité, Pauline et Damien peuvent se rendre à votre projection pour échanger sur le contenu du film. Une animation pédagogique peut également être organisée en partenariat avec Quinoa asbl.</p>
+                <h2 class="section-heading">{{site.data.i18n[page.lang].contact_title}}</h2>
+                <p>{{site.data.i18n[page.lang].contact_body}}</p>
             </div>
             <div class="col-xs-12 text-center">
                 <ul class="list-inline contact">
@@ -23,6 +23,43 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class="row">
+            <form action="{{ site.api_url.contact }}" method="post" class="form js-form js-form-ajax">
+                <p class="form-group">
+                    <label class="db">
+                        <span class="sr-only">Nom</span>
+                        <input class="form-control form-control-lg" type="text" name="name" placeholder="Nom*" required>
+                    </label>
+                </p>
+                <p class="form-group">
+                    <label class="db">
+                        <span class="sr-only">Email</span>
+                        <input class="form-control form-control-lg" type="email" name="email" placeholder="Email*" required>
+                    </label>
+                </p>
+                <p class="form-group">
+                    <label class="db">
+                        <span class="sr-only">Votre message</span>
+                        <textarea rows="8" class="form-control form-control-lg" name="message" placeholder="Message*" required></textarea>
+                    </label>
+                </p>
+                <div class="form-group">
+                    <p class="checkbox">
+                        <label>
+                            <input required name="privacy" value="y" type="checkbox">
+                            J'ai lu la <a href="{% link privacy-policy.md %}" target="_blank">politique de confidentialité</a> et j'accepte que mes données personnelles soient traitées.
+                        </label>
+                    </p>
+                </div>
+                <div class="js-form-alert form-alert tac">
+                    <div class="alert alert-warning">Veuillez remplir les champs requis.</div>
+                </div>
+                <span class="js-notify-msg-success hidden">Votre message a bien été envoyé ! Merci.</span>
+                <p class="tac">
+                    <input type="submit" class="btn btn-lg btn-full js-form-submit" value="Envoyer">
+                </p>
+            </form>
         </div>
     </div>
 </section>
