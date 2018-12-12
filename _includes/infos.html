@@ -1,6 +1,7 @@
 <section id="about" class="bg-primary section-about">
-    <div class="container text-center">
-      {{site.data.i18n[page.lang].description}}
+    <div class="container text-center big">
+      {% capture text %}{% include intro.{{page.lang}}.md %}{% endcapture %}
+      {{ text | markdownify }}
     </div>
     <div class="container-fluid">
       <div class="row no-gutter">
