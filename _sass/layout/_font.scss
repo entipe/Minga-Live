@@ -1,4 +1,4 @@
-$fontello-version : 7;
+$fontello-version : 8;
 
 /* latin */
 @font-face {
@@ -33,6 +33,36 @@ $fontello-version : 7;
   }
 }
 */
+
+.icon-spin {
+  &:before {
+    -webkit-animation-name: spin;
+    -o-animation-name: spin;
+    animation-name: spin;
+    -webkit-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
@@ -73,6 +103,7 @@ $fontello-version : 7;
 .icon-cancel-1:before { content: '\e801'; } /* '' */
 .icon-mail:before { content: '\e802'; } /* '' */
 .icon-menu:before { content: '\e803'; } /* '' */
+.icon-spin3:before { content: '\e832'; } /* '' */
 .icon-angle-double-down:before { content: '\f103'; } /* '' */
 .icon-angle-left:before { content: '\f104'; } /* '' */
 .icon-angle-right:before { content: '\f105'; } /* '' */

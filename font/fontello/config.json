@@ -59,6 +59,12 @@
       "css": "menu",
       "code": 59395,
       "src": "entypo"
+    },
+    {
+      "uid": "2a6740fc2f9d0edea54205963f662594",
+      "css": "spin3",
+      "code": 59442,
+      "src": "fontelico"
     }
   ]
 }

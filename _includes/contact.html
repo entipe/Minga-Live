@@ -24,42 +24,37 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <form action="{{ site.api_url.contact }}" method="post" class="form js-form js-form-ajax">
-                <p class="form-group">
-                    <label class="db">
-                        <span class="sr-only">Nom</span>
-                        <input class="form-control form-control-lg" type="text" name="name" placeholder="Nom*" required>
-                    </label>
-                </p>
-                <p class="form-group">
-                    <label class="db">
-                        <span class="sr-only">Email</span>
-                        <input class="form-control form-control-lg" type="email" name="email" placeholder="Email*" required>
-                    </label>
-                </p>
-                <p class="form-group">
-                    <label class="db">
-                        <span class="sr-only">Votre message</span>
-                        <textarea rows="8" class="form-control form-control-lg" name="message" placeholder="Message*" required></textarea>
-                    </label>
-                </p>
-                <div class="form-group">
-                    <p class="checkbox">
-                        <label>
-                            <input required name="privacy" value="y" type="checkbox">
-                            J'ai lu la <a href="{% link privacy-policy.md %}" target="_blank">politique de confidentialité</a> et j'accepte que mes données personnelles soient traitées.
-                        </label>
-                    </p>
-                </div>
-                <div class="js-form-alert form-alert tac">
-                    <div class="alert alert-warning">Veuillez remplir les champs requis.</div>
-                </div>
-                <span class="js-notify-msg-success hidden">Votre message a bien été envoyé ! Merci.</span>
-                <p class="tac">
-                    <input type="submit" class="btn btn-lg btn-full js-form-submit" value="Envoyer">
-                </p>
-            </form>
-        </div>
+    </div>
+    <div class="container-form site-form">
+        <form action="{{ site.api_url }}" method="post" class="form js-form js-form-ajax">
+            <p class="form-group">
+                <label>{{site.data.i18n[page.lang].lastname}}</label>
+                <input class="form-control form-control-lg" type="text" name="name" placeholder="{{site.data.i18n[page.lang].lastname}}*" required>
+            </p>
+            <p class="form-group">
+                <label>{{site.data.i18n[page.lang].email}}</label>
+                <input class="form-control form-control-lg" type="email" name="email" placeholder="{{site.data.i18n[page.lang].email}}*" required>
+            </p>
+            <p class="form-group">
+                <label class="db">{{site.data.i18n[page.lang].message}}</label>
+                <textarea rows="8" class="form-control form-control-lg" name="message" placeholder="{{site.data.i18n[page.lang].message}}*" required></textarea>
+            </p>
+            <div class="checkbox">
+                <label for="privacy" class="form-check-label">
+                    <input required id="privacy" name="privacy" value="y" type="checkbox" class="form-check-input">
+                    {{site.data.i18n[page.lang].privacy_checkbox}}
+                </label>
+            </div>
+            <span class="js-notify-msg-success hidden"></span>
+            <p class="form-submit__container">
+                <input type="submit" class="btn btn-default btn-lg site-form-btn js-form-submit"  data-on="<i class='icon icon-spin2 icon-spin'></i> {{site.data.i18n[page.lang].sending}}..." data-off="{{site.data.i18n[page.lang].send}}" value="{{site.data.i18n[page.lang].send}}">
+            </p>
+            <div class="site-form__feedback">
+              <p class="d-none site-form__feedback-item alert alert-warning js-form-feedback js-form-feedback-error">{{site.data.i18n[page.lang].fill_required_fields}}</p>
+              <p class="d-none site-form__feedback-item alert alert-primary js-form-feedback js-form-feedback-success">{{site.data.i18n[page.lang].message_sent}}</p>
+              <p class="d-none site-form__feedback-item alert alert-warning js-form-feedback js-form-feedback-post-error">{{site.data.i18n[page.lang].form_error}}</p>
+            </div>
+
+        </form>
     </div>
 </section>
