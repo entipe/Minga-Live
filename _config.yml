@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-api_url: '//api.minga-docu.net/contact.php'
+api_url: '//api.minga-docu.net/form.php'
 
 phone:
   - author: Damien Charles
