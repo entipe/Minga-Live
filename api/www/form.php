@@ -102,7 +102,7 @@ class Form {
 
         $mail->setFrom(self::EMAIL_FROM, self::EMAIL_FROM_NAME);
         $mail->addAddress(self::EMAIL_TO, self::EMAIL_TO_NAME);
-        $mail->addReplyTo($this->finalFields['email'], $this->finalFields['firstname']. " " .strtoupper($this->finalFields['lastname']));
+        $mail->addReplyTo($this->finalFields['email'], $this->finalFields['name']);
 
         $mail->isHTML(true);
 
