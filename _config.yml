@@ -37,6 +37,7 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - webpack.prod.js
+  - api/
 
 sass:
     style: compressed

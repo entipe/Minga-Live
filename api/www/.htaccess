@@ -1,0 +1,5 @@
+#SetEnvIf Origin "^https?://[^/]*(staging.w-dk|w-dk)\.be$" ORIGIN=$0
+#Header set Access-Control-Allow-Origin %{ORIGIN}e env=ORIGIN
+#Header set Access-Control-Allow-Credentials "true" env=ORIGIN
+Header set Access-Control-Allow-Origin *
+Header merge Vary Origin

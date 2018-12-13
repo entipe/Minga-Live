@@ -1,0 +1,9 @@
+dev:
+    scheme: sftp
+    host: ssh.cluster006.ovh.net
+    port: 22
+    user: hypemoz-minga
+    pass: sWCbcWFEYe8BdRky
+    check: true
+    path:
+        local: "api/"
