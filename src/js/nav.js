@@ -2,6 +2,8 @@ define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
 
     const NAV_LINK_CLASS = '.js-nav-link';
     const NAV_CLASS = '.js-nav';
+    const NAV_LANG_CLASS = '.js-nav-lang';
+    const NAV_LANG_TOGGLE_CLASS = '.js-nav-lang-toggle';
     const NAV_TOGGLE_CLASS = '.js-nav-toggle';
     const NAV_SCROLL_CLASS = '.js-page-scroll';
     const SCROLL_BEHAVIOR = 'smooth';
@@ -31,6 +33,18 @@ define(['smoothscroll-polyfill', './fittext.js'],function (smoothscroll) {
         }
 
         document.querySelector(NAV_TOGGLE_CLASS).addEventListener('click', toggleNavXS);
+        document.querySelector(NAV_LANG_TOGGLE_CLASS).addEventListener('click', toggleNavLang);
+    }
+
+    /**
+    * Toggle lang navigation
+    * @param e Event | Click Event
+    * @return void
+    **/
+    const toggleNavLang = function (e) {
+        document.querySelector(NAV_LANG_CLASS).classList.toggle('is-active');
+
+        e.preventDefault();
     }
 
     /**

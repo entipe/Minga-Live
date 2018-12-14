@@ -3233,6 +3233,8 @@ __webpack_require__(/*! ./form.js */ "./src/js/form.js");
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! smoothscroll-polyfill */ "./node_modules/smoothscroll-polyfill/dist/smoothscroll.js"), __webpack_require__(/*! ./fittext.js */ "./src/js/fittext.js")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (smoothscroll) {
   var NAV_LINK_CLASS = '.js-nav-link';
   var NAV_CLASS = '.js-nav';
+  var NAV_LANG_CLASS = '.js-nav-lang';
+  var NAV_LANG_TOGGLE_CLASS = '.js-nav-lang-toggle';
   var NAV_TOGGLE_CLASS = '.js-nav-toggle';
   var NAV_SCROLL_CLASS = '.js-page-scroll';
   var SCROLL_BEHAVIOR = 'smooth';
@@ -3266,6 +3268,18 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
     }
 
     document.querySelector(NAV_TOGGLE_CLASS).addEventListener('click', toggleNavXS);
+    document.querySelector(NAV_LANG_TOGGLE_CLASS).addEventListener('click', toggleNavLang);
+  };
+  /**
+  * Toggle lang navigation
+  * @param e Event | Click Event
+  * @return void
+  **/
+
+
+  var toggleNavLang = function toggleNavLang(e) {
+    document.querySelector(NAV_LANG_CLASS).classList.toggle('is-active');
+    e.preventDefault();
   };
   /**
   * Toggle mobile navigation

@@ -73,6 +73,7 @@ $color-bg: rgba(black, .8);
 		background: transparent;
 		border: 0;
 		box-shadow: none;
+		background: rgba(0,0,0,.2);
 
 		> .burger {
 			@include burger(30px, 3px, 5px, #fff);
@@ -85,4 +86,53 @@ $color-bg: rgba(black, .8);
 			}
 		}
 	}
+}
+
+
+.site-nav-lang {
+	position: absolute;
+	top: 0;
+	right: 71px;
+	min-width: 70px;
+	height: 59px;
+
+	&__toggle {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	&.is-active &__toggle {
+		background-color: rgba(0,0,0,.8);
+	}
+
+	&__list {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		height: auto;
+
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+		max-height: 0;
+		opacity: 0;
+
+		@include transition(opacity .2s linear, max-height .2s ease-out);
+	}
+
+	&.is-active &__list {
+		opacity: 1;
+		max-height: 150px;
+	}
+
+	&__list &__toggle {
+		position: static;
+	}
+
 }

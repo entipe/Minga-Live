@@ -1,4 +1,7 @@
 fr:
+  trailer: trailer
+  about: Over
+  contact: contact
   title: Minga
   subtitle: Voix de résistance
   watchtrailer: Regarder le trailer
@@ -28,7 +31,42 @@ fr:
     J'ai lu la <a href="{% link privacy-policy.md %}" target="_blank">politique de confidentialité</a> et j'accepte que mes données personnelles soient traitées.
   form_error: >
     Une erreur est survenue, veuillez réessayer ou utilisez directement une adresse e-mail indiquée sur le site web.
+  version: Version
 es:
   title: Minga
   subtitle: ES Lorem ipsum dolor sit amet
   watchtrailer: ES Regarder le trailer
+nl:
+  title: Minga
+  version: Versie
+  trailer: trailer
+  about: Over
+  contact: contact 
+  subtitle: Stemmen van weerstand
+  watchtrailer: Bekijk de trailer
+  length: Duur
+  length_value: Vidéo (25fps) - 76 m 36 sec
+  takeshot: Beelden
+  takeshot_value: Digitaal
+  film_format_ratio: Schermindeling Ratio
+  film_format_ratio_value: FullHD - 1920x1080
+  vo_es: Originele versie in het Spaans
+  vo_stfr: Versie met Nederlandse ondertitels
+  film_location: Opnamelocatie
+  film_location_value: Brazilië, Argentinië, Chili, Bolivië, Peru, Ecuador, Colombia, Honduras, Guatemala en Mexico.
+  film_language: Oorspronkelijke taal
+  film_language_value: Spaans, Portugees, Guarani
+  contact_body: >
+    Afhankelijk van hun beschikbaarheden, kunnen Pauline en Damien naar uw vertoning komen om de inhoud van de film te bespreken.
+  contact_title: Contacteer ons
+  lastname: Naam
+  email: Email
+  message: Uw boodschap 
+  fill_required_fields: Gelieve de vereiste velden in te vullen.
+  message_sent: Uw boodschap is afgeleverd ! Bedankt.
+  send: Verzenden
+  sending: Verzenging
+  privacy_checkbox: >
+    Ik heb het <a href="{% link privacy-policy.md %}" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld.
+  form_error: >
+    Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
