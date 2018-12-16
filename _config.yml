@@ -11,6 +11,11 @@ langList:
   - es
 api_url: '//api.minga-docu.net/form.php'
 
+company:
+  name: MINGA
+  phone: "+32 484 522 660"
+  url: minga-docu.net
+
 phone:
   - author: Damien Charles
     attr: "&#116;&#101;&#108;:&#048;&#048;&#051;&#050;&#052;&#056;&#052;&#053;&#050;&#050;&#054;&#054;&#048;"

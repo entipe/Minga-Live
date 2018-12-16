@@ -28,7 +28,7 @@ fr:
   send: Envoyer
   sending: Envoi
   privacy_checkbox: >
-    J'ai lu la <a href="{% link privacy-policy.md %}" target="_blank">politique de confidentialité</a> et j'accepte que mes données personnelles soient traitées.
+    J'ai lu la <a href="/en/privacy-policy" target="_blank">politique de confidentialité</a> et j'accepte que mes données personnelles soient traitées.
   form_error: >
     Une erreur est survenue, veuillez réessayer ou utilisez directement une adresse e-mail indiquée sur le site web.
   version: Version
@@ -63,7 +63,7 @@ es:
   send: Enviar
   sending: Envío
   privacy_checkbox: >
-    He leído la <a href="{% link privacy-policy.md %}" target="_blank">política de privacidad</a> y autorizo el uso de mis datos personales.
+    He leído la <a href="/en/privacy-policy" target="_blank">política de privacidad</a> y autorizo el uso de mis datos personales.
   form_error: >
     Un error ocurrió, vuelva a intentarlo o envíe directamente un correo electrónico a la dirección indicada en el sitio web.
 nl:
@@ -97,6 +97,5 @@ nl:
   send: Verzenden
   sending: Verzenging
   privacy_checkbox: >
-    Ik heb het <a href="{% link privacy-policy.md %}" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld.
-  form_error: >
+    Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. form_error: >
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
