@@ -95,7 +95,7 @@ nl:
   fill_required_fields: Gelieve de vereiste velden in te vullen.
   message_sent: Uw boodschap is afgeleverd ! Bedankt.
   send: Verzenden
-  sending: Verzenging
+  sending: Verzenging 
   privacy_checkbox: >
     Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. form_error: >
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
