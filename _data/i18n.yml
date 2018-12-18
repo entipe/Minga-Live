@@ -97,5 +97,6 @@ nl:
   send: Verzenden
   sending: Verzending
   privacy_checkbox: >
-    Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. form_error: >
+    Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. 
+  form_error: >
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
