@@ -1,0 +1,60 @@
+<section id="contact" class="section-contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{site.data.i18n[page.lang].contact_title}}</h2>
+                <p>{{site.data.i18n[page.lang].contact_body}}</p>
+            </div>
+            <div class="col-xs-12 text-center">
+                <ul class="list-inline contact">
+                    <li>  
+                        <span class="contact__icon">
+                            <i class="icon icon-phone"></i>
+                        </span>
+                        {% for phone in site.phone %}
+                        <a href="{{phone.attr}}">{{phone.value}}</a> {{phone.author}}<br>
+                        {% endfor %}
+                    </li>
+                    <li>
+                        <span class="contact__icon contact__icon--adjust">
+                            <i class="icon icon-mail"></i>
+                        </span>
+                        {{site.email}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-form site-form">
+        <form action="{{ site.api_url }}" method="post" class="form js-form js-form-ajax">
+            <p class="form-group">
+                <label>{{site.data.i18n[page.lang].lastname}}</label>
+                <input class="form-control form-control-lg" type="text" name="name" placeholder="{{site.data.i18n[page.lang].lastname}}*" required>
+            </p>
+            <p class="form-group">
+                <label>{{site.data.i18n[page.lang].email}}</label>
+                <input class="form-control form-control-lg" type="email" name="email" placeholder="{{site.data.i18n[page.lang].email}}*" required>
+            </p>
+            <p class="form-group">
+                <label class="db">{{site.data.i18n[page.lang].message}}</label>
+                <textarea rows="8" class="form-control form-control-lg" name="message" placeholder="{{site.data.i18n[page.lang].message}}*" required></textarea>
+            </p>
+            <div class="checkbox">
+                <label for="privacy" class="form-check-label">
+                    <input required id="privacy" name="privacy" value="y" type="checkbox" class="form-check-input">
+                    {{site.data.i18n[page.lang].privacy_checkbox}}
+                </label>
+            </div>
+            <span class="js-notify-msg-success hidden"></span>
+            <p class="form-submit__container">
+                <input type="submit" class="btn btn-default btn-lg site-form-btn js-form-submit"  data-on="<i class='icon icon-spin2 icon-spin'></i> {{site.data.i18n[page.lang].sending}}..." data-off="{{site.data.i18n[page.lang].send}}" value="{{site.data.i18n[page.lang].send}}">
+            </p>
+            <div class="site-form__feedback">
+              <p class="d-none site-form__feedback-item alert alert-warning js-form-feedback js-form-feedback-error">{{site.data.i18n[page.lang].fill_required_fields}}</p>
+              <p class="d-none site-form__feedback-item alert alert-primary js-form-feedback js-form-feedback-success">{{site.data.i18n[page.lang].message_sent}}</p>
+              <p class="d-none site-form__feedback-item alert alert-warning js-form-feedback js-form-feedback-post-error">{{site.data.i18n[page.lang].form_error}}</p>
+            </div>
+
+        </form>
+    </div>
+</section>

@@ -1,0 +1,3 @@
+De la **Patagonie aux montagnes du Mexique**, des communautés se soulèvent. Elles dénoncent la **destruction de leurs territoires et de leurs vies**. Puisant dans leurs héritages culturels, elles s'organisent pour arrêter le carnage et **créer des solutions inspirantes**. Le documentaire Minga est un écho de ces voix de résistance.
+
+Pauline et Damien sont partis **deux ans à leur rencontre** et leur ont laissé une liberté de parole totale. Le tournage a été réalisé avec la plus faible empreinte écologique possible (voies terrestres et maritimes uniquement).

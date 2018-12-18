@@ -1,0 +1,101 @@
+fr:
+  trailer: trailer
+  about: Over
+  contact: contact
+  title: Minga
+  subtitle: Voix de résistance
+  watchtrailer: Regarder le trailer
+  length: Durée
+  length_value: Vidéo (25fps) - 76 m 36 sec
+  takeshot: Prise de vue
+  takeshot_value: Numérique (25fps)
+  film_format_ratio: Format de projection Ratio
+  film_format_ratio_value: FullHD - 1920x1080
+  vo_es: Version originale en espagnol
+  vo_stfr: Version sous-titrée en français
+  film_location: Lieux de tournage
+  film_location_value: Brésil, Argentine, Chili, Bolivie, Pérou, Équateur, Colombie, Honduras, Guatemala et Mexique.
+  film_language: Langues de tournage
+  film_language_value: Espagnol, Portugais, Guarani
+  contact_body: >
+    Dans la mesure de leur disponibilité, Pauline et Damien peuvent se rendre à votre projection pour échanger sur le contenu du film. Une animation pédagogique peut également être organisée en partenariat avec Quinoa asbl.
+  contact_title: Contactez-nous
+  lastname: Nom
+  email: Email
+  message: Votre message 
+  fill_required_fields: Veuillez remplir les champs requis.
+  message_sent: Votre message a bien été envoyé ! Merci.
+  send: Envoyer
+  sending: Envoi
+  privacy_checkbox: >
+    J'ai lu la <a href="/en/privacy-policy" target="_blank">politique de confidentialité</a> et j'accepte que mes données personnelles soient traitées.
+  form_error: >
+    Une erreur est survenue, veuillez réessayer ou utilisez directement une adresse e-mail indiquée sur le site web.
+  version: Version
+es:
+  title: Minga
+  about: Acerca
+  contact: Contacto
+  trailer: Trailer
+  subtitle: Voces de resistencia
+  watchtrailer: Mirar el trailer
+  ﻿title: Minga
+  length: Duración
+  length_value: Vídeo (25fps) - 76 m 36 sec
+  takeshot: Tomas
+  takeshot_value: Numérique (25fps)
+  Digitalfilm_format_ratio: Formato de proyección Ratio
+  film_format_ratio_value: FullHD - 1920x1080
+  vo_es: Versión original en español y portugués
+  vo_stfr: Versión con subtítulos en español
+  film_location: Lugares de rodaje
+  film_location_value: Brasil, Argentina, Chile, Bolivia, Perú, Ecuador, Colombia, Honduras, Guatemala y México.
+  film_language: Idiomas original
+  film_language_value: Español, Portugués, Guarani
+  contact_body: >
+    En la medida de lo posible, Pauline y Damien pueden estar presentes el día de la proyección para intercambiar sobre el contenido del documental.
+  contact_title: Contáctenos
+  lastname: Nombre
+  email: Email
+  message: Su mensaje 
+  fill_required_fields: Sírvase completar los campos requeridos.
+  message_sent: Su mensaje fue enviado! Gracias.
+  send: Enviar
+  sending: Envío
+  privacy_checkbox: >
+    He leído la <a href="/en/privacy-policy" target="_blank">política de privacidad</a> y autorizo el uso de mis datos personales.
+  form_error: >
+    Un error ocurrió, vuelva a intentarlo o envíe directamente un correo electrónico a la dirección indicada en el sitio web.
+nl:
+  title: Minga
+  version: Versie
+  trailer: trailer
+  about: Over
+  contact: contact 
+  subtitle: Stemmen van weerstand
+  watchtrailer: Bekijk de trailer
+  length: Duur
+  length_value: Video (25fps) - 76 m 36 sec
+  takeshot: Beelden
+  takeshot_value: Digitaal
+  film_format_ratio: Schermindeling Ratio
+  film_format_ratio_value: FullHD - 1920x1080
+  vo_es: Originele versie in het Spaans
+  vo_stfr: Versie met Nederlandse ondertitels
+  film_location: Opnamelocaties
+  film_location_value: Brazilië, Argentinië, Chili, Bolivië, Peru, Ecuador, Colombia, Honduras, Guatemala en Mexico.
+  film_language: Oorspronkelijke talen
+  film_language_value: Spaans, Portugees, Guarani
+  contact_body: >
+    Afhankelijk van hun beschikbaarheden, kunnen Pauline en Damien naar uw vertoning komen om de inhoud van de film te bespreken.
+  contact_title: Contacteer ons
+  lastname: Naam
+  email: Email
+  message: Uw boodschap 
+  fill_required_fields: Gelieve de vereiste velden in te vullen.
+  message_sent: Uw boodschap is afgeleverd ! Bedankt.
+  send: Verzenden
+  sending: Verzenging
+  privacy_checkbox: >
+    Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. form_error: >
+    Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.

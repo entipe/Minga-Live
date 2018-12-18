@@ -1,0 +1,20 @@
+$font-family-sans-serif: 'PT Sans', Arial, Helvetica, sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+
+$color-primary: #b02014;
+$color-primary-dark: #3A150B;
+$color-primary-light: lighten($color-primary, 25%);
+$color-secondary: #A8FA49;
+$color-white: #fff;
+
+$theme-primary: $color-primary;
+$theme-dark: $color-primary-dark;
+
+//Bootstrap
+$brand-primary: $color-primary;
+$font-size-base: 16px;
+
+@import "mixin/breakpoint";
+@import "mixin/theme";
+@import "mixin/transform";
+@import "mixin/burger";

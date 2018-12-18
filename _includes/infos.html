@@ -1,0 +1,19 @@
+<section id="about" class="bg-primary section-about">
+    <div class="container text-center big">
+      {% capture text %}{% include intro.{{page.lang}}.md %}{% endcapture %}
+      {{ text | markdownify }}
+    </div>
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <div class="col-lg-4 col-sm-6">
+          <img data-src="/img/banner/5.jpg" class="img-responsive lazyload appear">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <img data-src="/img/banner/6.jpg" class="img-responsive lazyload appear">
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <img data-src="/img/banner/3.jpg" class="img-responsive lazyload appear">
+        </div>
+      </div>
+    </div>
+</section>

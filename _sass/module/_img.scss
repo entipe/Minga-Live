@@ -1,0 +1,10 @@
+img {
+  &.appear {
+    transition: opacity .3s linear;
+    opacity: 0;
+  }
+
+  &.lazyloaded {
+    opacity: 1;
+  }
+}

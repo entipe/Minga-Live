@@ -1,0 +1,32 @@
+<nav class="site-nav text-center js-nav">
+    <ul class="site-nav__list list-unstyled">
+        <li>
+            <a class="site-nav__link js-nav-link js-page-scroll" href="#trailer"><span>{{site.data.i18n[page.lang].trailer}}</span></a>
+        </li>
+        <li>
+            <a class="site-nav__link js-nav-link js-page-scroll" href="#about"><span>{{site.data.i18n[page.lang].about}}</span></a>
+        </li>
+        <li>
+            <a class="site-nav__link js-nav-link js-page-scroll" href="#contact"><span>{{site.data.i18n[page.lang].contact}}</span></a>
+        </li>
+    </ul>
+
+    <button type="button" class="site-nav__toggle js-nav-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="burger"></span>
+    </button>
+
+    <div class="site-nav-lang js-nav-lang">
+        <button type="button" class="site-nav__toggle site-nav-lang__toggle js-nav-lang-toggle">
+            <span class="sr-only">Toggle Language</span>
+            {{page.lang}}
+        </button>
+        <ul class="site-nav-lang__list site-nav-lang list-unstyled">
+            {% for lang in site.langList %}
+            <li {% if lang == page.lang %}hidden{% endif %}>
+                <a href="/{{lang}}" class="site-nav__toggle site-nav-lang__toggle">{{lang}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,51 @@
+# Site settings
+title: Minga
+subtitle: Lorem ipsum dolor sit
+email: contacŧ@minga-docu.net
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+langList:
+  - fr 
+  - nl
+  - es
+api_url: '//api.minga-docu.net/form.php'
+
+company:
+  name: MINGA
+  phone: "+32 484 522 660"
+  url: minga-docu.net
+
+phone:
+  - author: Damien Charles
+    attr: "&#116;&#101;&#108;:&#048;&#048;&#051;&#050;&#052;&#056;&#052;&#053;&#050;&#050;&#054;&#054;&#048;"
+    value: "+&#051;&#050;&#032;&#052;&#056;&#052;&#032;&#053;&#050;&#050;&#032;&#054;&#054;&#048;"
+  - author: Pauline Dutron
+    attr: "&#116;&#101;&#108;:&#048;&#048;&#051;&#050;&#052;&#056;&#053;&#054;&#055;&#052;&#053;&#051;&#054;"
+    value: "+&#051;&#050;&#032;&#052;&#056;&#053;&#032;&#054;&#055;&#032;&#052;&#053;&#032;&#051;&#054;"
+email: > #salut
+  <span data-eeEncEmail_LDsAOUDOhn='1'>.(Le JavaScript doit être activé pour voir cette adresse email)</span><script type="text/javascript">/*<![CDATA[*/var out = '',el = document.getElementsByTagName('span'),l = ['>','a','/','<',' 116',' 101',' 110',' 46',' 117',' 99',' 111',' 100',' 45',' 97',' 103',' 110',' 105',' 109',' 64',' 111',' 102',' 110',' 105','>','\"',' 116',' 101',' 110',' 46',' 117',' 99',' 111',' 100',' 45',' 97',' 103',' 110',' 105',' 109',' 64',' 111',' 102',' 110',' 105',':','o','t','l','i','a','m','\"','=','f','e','r','h','a ','<'],i = l.length,j = el.length;while (--i >= 0)out += unescape(l[i].replace(/^\s\s*/, '&#'));while (--j >= 0)if (el[j].getAttribute('data-eeEncEmail_LDsAOUDOhn'))el[j].innerHTML = out;/*]]>*/</script>
+
+# Build settings
+markdown: kramdown
+plugins:
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - dploy.yaml
+  - dploy.yml
+  - php/
+  - resize.sh
+  - CNAME
+  - resize/
+  - node_modules/
+  - src/
+  - .yo-rc.json
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - webpack.prod.js
+  - api/
+
+sass:
+    style: compressed

@@ -1,0 +1,47 @@
+<header class="site-hero" id="trailer">
+    <div class="site-hero__content">
+        <div class="site-hero__content-inner">
+            <h1 class="site-hero__title js-title"><span>{{site.data.i18n[page.lang].title}}</span></h1>
+            <p class="site-hero__subtitle js-subtitle">{{site.data.i18n[page.lang].subtitle}}</p>
+            <a href="#" class="btn btn-primary btn-xl js-trailer-toggle">
+            {{site.data.i18n[page.lang].watchtrailer}}
+          </a>
+        </div>
+    </div>
+    <div class="site-hero__slider">
+      <picture class="site-hero__pic" style="background: #EAD6A9;">
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source data-sizes="100vw"
+                data-srcset="/img/banner/1--992-min.jpg 992w,
+                       /img/banner/1--1200-min.jpg 1200w,
+                       /img/banner/1--1600-min.jpg 1600w,
+                       /img/banner/1--1920-min.jpg 1920w" 
+                media="(min-width: 992px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img
+          data-sizes="100vw"
+          data-srcset="/img/banner/1--xs.jpg 360w,
+                      /img/banner/1--xs@2x.jpg 720w"
+          class="img-responsive lazyload appear"
+          alt="ALT !!"
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        >
+      </picture>
+    </div>
+    <div class="trailer-front hidden js-trailer">
+      <div class="trailer-front__content">
+        <div class="trailer-front__embed">
+          <button type="button" class="trailer-front__close js-trailer-toggle"><i class="icon icon-cancel-1"></i></button>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe data-src="https://player.vimeo.com/video/304387541?autoplay=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-hero__bottom">
+      <a href="#about" class="js-page-scroll">
+        <i class="icon icon-angle-double-down"></i>
+        <span class="sr-only">Learn more</span>
+      </a>
+    </div>
+</header>

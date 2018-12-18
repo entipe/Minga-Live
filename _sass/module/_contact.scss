@@ -1,0 +1,18 @@
+.contact {
+	font-size: 22px;
+	&__icon {
+		font-size: 56px;
+		display: block;
+
+		&--adjust {
+			position: relative;
+			top: -5px;
+		}
+	}
+
+	> li {
+		vertical-align: top;
+		margin: 0 30px 30px;
+		padding: 0;
+	}
+}
