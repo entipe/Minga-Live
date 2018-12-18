@@ -1,15 +1,15 @@
 fr:
-  trailer: trailer
-  about: Over
-  contact: contact
+  trailer: Trailer
+  about: A propos
+  contact: Contact
   title: Minga
   subtitle: Voix de résistance
   watchtrailer: Regarder le trailer
   length: Durée
-  length_value: Vidéo (25fps) - 76 m 36 sec
+  length_value: Vidéo - 76 m 36 sec
   takeshot: Prise de vue
   takeshot_value: Numérique (25fps)
-  film_format_ratio: Format de projection Ratio
+  film_format_ratio: Format
   film_format_ratio_value: FullHD - 1920x1080
   vo_es: Version originale en espagnol
   vo_stfr: Version sous-titrée en français
@@ -39,18 +39,18 @@ es:
   trailer: Trailer
   subtitle: Voces de resistencia
   watchtrailer: Mirar el trailer
-  ﻿title: Minga
+  title: Minga
   length: Duración
-  length_value: Vídeo (25fps) - 76 m 36 sec
+  length_value: Vídeo - 76 m 36 sec
   takeshot: Tomas
-  takeshot_value: Numérique (25fps)
-  Digitalfilm_format_ratio: Formato de proyección Ratio
+  takeshot_value: Digital (25fps)
+  Digitalfilm_format_ratio: Formato
   film_format_ratio_value: FullHD - 1920x1080
   vo_es: Versión original en español y portugués
   vo_stfr: Versión con subtítulos en español
   film_location: Lugares de rodaje
   film_location_value: Brasil, Argentina, Chile, Bolivia, Perú, Ecuador, Colombia, Honduras, Guatemala y México.
-  film_language: Idiomas original
+  film_language: Idiomas originales
   film_language_value: Español, Portugués, Guarani
   contact_body: >
     En la medida de lo posible, Pauline y Damien pueden estar presentes el día de la proyección para intercambiar sobre el contenido del documental.
@@ -69,16 +69,16 @@ es:
 nl:
   title: Minga
   version: Versie
-  trailer: trailer
+  trailer: Trailer
   about: Over
-  contact: contact 
+  contact: Contact 
   subtitle: Stemmen van weerstand
   watchtrailer: Bekijk de trailer
   length: Duur
-  length_value: Video (25fps) - 76 m 36 sec
+  length_value: Video - 76 m 36 sec
   takeshot: Beelden
-  takeshot_value: Digitaal
-  film_format_ratio: Schermindeling Ratio
+  takeshot_value: Digitaal (25fps)
+  film_format_ratio: Formaat
   film_format_ratio_value: FullHD - 1920x1080
   vo_es: Originele versie in het Spaans
   vo_stfr: Versie met Nederlandse ondertitels
@@ -95,7 +95,8 @@ nl:
   fill_required_fields: Gelieve de vereiste velden in te vullen.
   message_sent: Uw boodschap is afgeleverd ! Bedankt.
   send: Verzenden
-  sending: Verzenging
+  sending: Verzending
   privacy_checkbox: >
-    Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. form_error: >
+    Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. 
+  form_error: >
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
