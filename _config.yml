@@ -1,6 +1,5 @@
 # Site settings
 title: Minga
-subtitle: Lorem ipsum dolor sit
 email: contacŧ@minga-docu.net
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
