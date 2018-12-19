@@ -100,3 +100,36 @@ nl:
     Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. 
   form_error: >
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
+pt:
+  trailer: Trailer
+  about: Sobre
+  contact: Contato
+  title: Minga
+  subtitle: Vozes de resistência
+  watchtrailer: Ver o trailer
+  length: Duração
+  length_value: Vídeo - 76 m 36 sec
+  takeshot: Filmagens
+  takeshot_value: Digital (25fps)
+  film_format_ratio: Formato
+  film_format_ratio_value: FullHD - 1920x1080
+  vo_es: Versão original em espanhol
+  vo_stfr: Versão legendada em português
+  film_location: Lugares de filmagem
+  film_location_value: Brasil, Argentina, Chile, Bolívia, Peru, Ecuador, Colombia, Honduras, Guatemala e México.
+  film_language: Línguas originais
+  film_language_value: Espanhol, Português, Guarani
+  contact_body: >
+    Na medida da sua disponibilidade, Pauline e Damien podem estar presentes o día da projeção para intercambiar sobre o conteúdo do documental.
+  contact_title: Contacte-nos
+  lastname: Nome
+  email: Email
+  message: A sua mensagem
+  fill_required_fields: Por favor preencha os dados requeridos.
+  message_sent: Sua mensagem foi enviada! Obrigado.
+  send: Enviar
+  sending: Envio
+  privacy_checkbox: >
+    Li a <a href="/en/privacy-policy" target="_blank">política de privacidade</a> e autorizo a utilização de dados pessoais.
+  form_error: >
+    Um erro ocorreu, tente novamente ou envie um correio eletrônico ao endereço indicado no site web.
