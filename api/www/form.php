@@ -25,8 +25,8 @@ class Form {
     const EMAIL_FROM = "postmaster@minga-docu.net";
     const EMAIL_FROM_NAME = "Minga";
 
-    //const EMAIL_TO = "contact@minga-docu.net";
-    const EMAIL_TO = "gauthier.depaoli@gmail.com";
+    const EMAIL_TO = "contact@minga-docu.net";
+    //const EMAIL_TO = "gauthier.depaoli@gmail.com";
     const EMAIL_TO_NAME = "Minga";
 
     private $finalFields;
