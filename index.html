@@ -1,6 +1,26 @@
-<html>
+---
+layout: default
+---
     <head>
-  <meta http-equiv="refresh" content="0; url=/fr">
-  <link rel="canonical" href="/fr" />
+  		<meta http-equiv="refresh" content="2; url={{site.url}}fr/">
+  		{% for lang in site.langList %}
+	    <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}{{lang}}/">
+	    {% endfor %}
+	    <link rel="alternate" hreflang="x-default" href="{{site.url}}fr/">
+  		<link rel="canonical" href="{{site.url}}fr/">
+
+  		<script type="text/javascript">
+			var language = window.navigator.userLanguage || window.navigator.language;
+
+			// Get primary standard
+			language = language.substring( 0, 2 ).toLowerCase();
+
+			if (language === 'fr' || language === 'es') {
+				window.location.replace('{{site.url}}'+lang+'/');
+			} else {
+				window.location.replace('{{site.url}}fr/');
+			}
+  		</script>
     </head>
-</html>
+    <body>
+    </body>
