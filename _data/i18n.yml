@@ -66,6 +66,7 @@ es:
     He leído la <a href="/en/privacy-policy" target="_blank">política de privacidad</a> y autorizo el uso de mis datos personales.
   form_error: >
     Un error ocurrió, vuelva a intentarlo o envíe directamente un correo electrónico a la dirección indicada en el sitio web.
+  version: Versión
 nl:
   title: Minga
   version: Versie
