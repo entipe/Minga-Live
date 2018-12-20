@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://minga-docu.net/" # the base hostname & protocol for your site
 langList:
   - fr 
-  - es
+  - es #change aussi dans index.html!
 api_url: '//api.minga-docu.net/form.php'
 
 company:
