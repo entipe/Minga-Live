@@ -33,6 +33,7 @@ fr:
     Une erreur est survenue, veuillez réessayer ou utilisez directement une adresse e-mail indiquée sur le site web.
   version: Version
 es:
+  version: Versión
   title: Minga
   about: Acerca
   contact: Contacto
@@ -44,7 +45,7 @@ es:
   length_value: Vídeo - 76 m 36 sec
   takeshot: Tomas
   takeshot_value: Digital (25fps)
-  Digitalfilm_format_ratio: Formato
+  film_format_ratio: Formato
   film_format_ratio_value: FullHD - 1920x1080
   vo_es: Versión original en español y portugués
   vo_stfr: Versión con subtítulos en español
