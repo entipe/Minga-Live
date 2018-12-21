@@ -1,3 +1,7 @@
 De la **Patagonie aux montagnes du Mexique**, des communautés se soulèvent. Elles dénoncent la **destruction de leurs territoires et de leurs vies**. Puisant dans leurs héritages culturels, elles s'organisent pour arrêter le carnage et **créer des solutions inspirantes**. Le documentaire Minga est un écho de ces voix de résistance.
 
-Pauline et Damien sont partis **deux ans à leur rencontre** et leur ont laissé une liberté de parole totale. Le tournage a été réalisé avec la plus faible empreinte écologique possible (voies terrestres et maritimes uniquement).
+Zapatistes, Mapuche, mouvements paysans, Garifunas, Lencas, mouvement des "sans terre", Guaranis Kaiowas, Nasas, Wayuus, les peuples originaires d'Amérique latine, comme les descendants de celles et ceux qui y sont venus de gré ou de force, cultivent un lien à leur territoire qui questionne notre propre rapport au monde. Lorsque'arrivent les **mines**, les **forages pétroliers**, les **projets touristiques** ou que les **forêts sont rasées pour y planter canne à sucre et soja**, ces communautés s'opposent au péril de leurs vies à ces "projets de mort". Ces femmes et ces hommes distinguent avec clairvoyance les racines des maux qui les rongent, et proposent autant de solutions.
+
+Pauline et Damien sont partis **deux ans à leur rencontre** et leur ont laissé une liberté de parole totale. Leurs témoignages, issus de terres si différentes, tissent une histoire commune, colorée de sagesse et de détermination. 
+
+Le tournage a été réalisé avec la plus faible empreinte écologique possible (voies terrestres et maritimes uniquement).
