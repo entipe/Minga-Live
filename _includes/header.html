@@ -8,8 +8,8 @@
           </a>
         </div>
     </div>
-    <div class="site-hero__slider">
-      <picture class="site-hero__pic" style="background: #EAD6A9;">
+    <div class="site-hero__slider js-banner">
+      <picture class="site-hero__pic js-banner-child tr-active" style="background: #EAD6A9;">
         <!--[if IE 9]><video style="display: none;"><![endif]-->
         <source data-sizes="100vw"
                 data-srcset="/img/banner/1--992-min.jpg 992w,
@@ -22,6 +22,24 @@
           data-sizes="100vw"
           data-srcset="/img/banner/1--xs.jpg 360w,
                       /img/banner/1--xs@2x.jpg 720w"
+          class="img-responsive lazyload appear"
+          alt="ALT !!"
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        >
+      </picture>
+      <picture class="site-hero__pic js-banner-child tr-off" style="background: #604830;">
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source data-sizes="100vw"
+                data-srcset="/img/banner/2--992-min.jpg 992w,
+                       /img/banner/2--1200-min.jpg 1200w,
+                       /img/banner/2--1600-min.jpg 1600w,
+                       /img/banner/2--1920-min.jpg 1920w" 
+                media="(min-width: 992px)">
+        <!--[if IE 9]></video><![endif]-->
+        <img
+          data-sizes="100vw"
+          data-srcset="/img/banner/2--xs.jpg 360w,
+                      /img/banner/2--xs@2x.jpg 720w"
           class="img-responsive lazyload appear"
           alt="ALT !!"
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
