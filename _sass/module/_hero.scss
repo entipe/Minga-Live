@@ -6,6 +6,20 @@
     text-align: center;
     color: white;
 
+    &__social {
+        padding-top: 15px;
+        font-size: 28px;
+
+        > a {
+            color: #fff;
+            opacity: .8;
+            &:focus,
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
     &__slider {
         position: absolute;
         top: 0;
@@ -23,6 +37,7 @@
             background: rgba(0,0,0,.35);
             width: 100%;
             height: 100%;
+            z-index: 30;
         }
     }
 
@@ -31,10 +46,39 @@
         height: 100%;
         display: block;
         overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
 
         > img {
             max-width: 100%;
             height: auto;
+        }
+
+        @include transition(opacity 1s linear);
+        opacity: 1;
+
+        //is outing
+        &.tr-out {
+            opacity: 0;
+        }
+
+        //in coming
+        &.tr-in {
+            z-index: 10;
+            opacity: 1;
+        }
+
+        //is active
+        &.tr-active {
+            z-index: 20;
+        }
+
+        //is unactive
+        &.off {
+            z-index: -1;
         }
     }
 
