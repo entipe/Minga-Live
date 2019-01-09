@@ -15,7 +15,7 @@
 					<a href="#contact" title="{{ site.data.i18n[page.lang].contact }}">{{ site.data.i18n[page.lang].contact }}</a>
 				</p>
 				<p>
-					<select name="site_lang">
+					<select name="site_lang" onchange="window.location = '/' + this.optionList[this.selectedIndex].value">
 						{% for lang in site.langList %}
 						<option value="{{lang}}" {% if page.lang ==  lang %}selected{% endif %}>{{lang | upcase }}</option>
 						{% endfor %}
