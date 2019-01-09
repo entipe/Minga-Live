@@ -12,7 +12,7 @@
                             <i class="icon icon-phone"></i>
                         </span>
                         {% for phone in site.phone %}
-                        <a href="{{phone.attr}}">{{phone.value}}</a> {{phone.author}}<br>
+                        {{phone.author}} <a href="{{phone.attr}}">{{phone.value}}</a><br>
                         {% endfor %}
                     </li>
                     <li>

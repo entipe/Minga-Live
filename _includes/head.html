@@ -8,9 +8,9 @@
     <meta name="description" content="{% capture text %}{% include intro.{{page.lang}}.md %}{% endcapture %}{{text | markdownify | strip_html}}">
 
     {% for lang in site.langList %}
-    <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}{{lang}}/">
+    <link rel="alternate" hreflang="{{lang}}" href="{{site.url}}/{{lang}}/">
     {% endfor %}
-    <link rel="alternate" hreflang="x-default" href="{{site.url}}fr/">
+    <link rel="alternate" hreflang="x-default" href="{{site.url}}/fr/">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="/css/main.css" type="text/css" media="bogus">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>

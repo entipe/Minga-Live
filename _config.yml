@@ -1,6 +1,5 @@
 # Site settings
 title: Minga
-subtitle: Lorem ipsum dolor sit
 email: contact@minga-docu.net #not used
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -15,6 +14,8 @@ company:
   phone: "+32 484 522 660"
   url: minga-docu.net
 
+facebook_url: //www.facebook.com/mingavocesderesistencia
+instagram_url: //www.instagram.com/mingavocesderesistencia
 phone:
   - author: Damien Charles
     attr: "&#116;&#101;&#108;:&#048;&#048;&#051;&#050;&#052;&#056;&#052;&#053;&#050;&#050;&#054;&#054;&#048;&#032;"

@@ -1,6 +1,6 @@
 .contact {
 	font-size: 22px;
-	margin-bottom: 40px;
+
 	&__icon {
 		font-size: 56px;
 		display: block;
@@ -13,12 +13,7 @@
 
 	> li {
 		vertical-align: top;
-		margin: 0 0 30px;
+		margin: 0 30px 30px;
 		padding: 0;
-
-		@include breakpoint('sm') {
-			margin-left: 30px;
-			margin-right: 30px;
-		}
 	}
 }
