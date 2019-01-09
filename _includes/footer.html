@@ -1,0 +1,28 @@
+<footer class="site-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<p>&copy; {{ site.data.i18n[page.lang].title }} - {{ site.data.i18n[page.lang].subtitle }} {{ 'now' | date: "%Y" }} </p>
+				<p class="social">
+					<a href="{{site.facebook_url}}" title="Facebook"><i class="icon icon-facebook-official"></i></a>
+					<a href="{{site.instagram}}" title="Facebook"><i class="icon icon-instagram"></i></a>
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 text-right">
+				<p>
+					<a href="#trailer" title="{{ site.data.i18n[page.lang].trailer }}">{{ site.data.i18n[page.lang].trailer }}</a> - 
+					<a href="#about" title="{{ site.data.i18n[page.lang].about }}">{{ site.data.i18n[page.lang].about }}</a> - 
+					<a href="#contact" title="{{ site.data.i18n[page.lang].contact }}">{{ site.data.i18n[page.lang].contact }}</a>
+				</p>
+				<p>
+					<select name="site_lang">
+						{% for lang in site.langList %}
+						<option value="{{lang}}" {% if page.lang ==  lang %}selected{% endif %}>{{lang | upcase }}</option>
+						{% endfor %}
+						option
+					</select>
+				</p>
+			</div>
+		</div>	
+	</div>
+</footer>
