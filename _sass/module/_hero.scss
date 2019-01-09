@@ -6,6 +6,20 @@
     text-align: center;
     color: white;
 
+    &__social {
+        padding-top: 15px;
+        font-size: 28px;
+
+        > a {
+            color: #fff;
+            opacity: .8;
+            &:focus,
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
     &__slider {
         position: absolute;
         top: 0;

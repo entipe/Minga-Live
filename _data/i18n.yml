@@ -32,6 +32,7 @@ fr:
   form_error: >
     Une erreur est survenue, veuillez réessayer ou utilisez directement une adresse e-mail indiquée sur le site web.
   version: Version
+  sitelang: Langue du site
 es:
   title: Minga
   about: Acerca
@@ -67,6 +68,7 @@ es:
   form_error: >
     Un error ocurrió, vuelva a intentarlo o envíe directamente un correo electrónico a la dirección indicada en el sitio web.
   version: Versión
+  sitelang: Idioma del sitio
 nl:
   title: Minga
   version: Versie
@@ -101,6 +103,7 @@ nl:
     Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. 
   form_error: >
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
+  sitelang: Sitetaal
 pt:
   trailer: Trailer
   about: Sobre
@@ -134,3 +137,4 @@ pt:
     Li a <a href="/en/privacy-policy" target="_blank">política de privacidade</a> e autorizo a utilização de dados pessoais.
   form_error: >
     Um erro ocorreu, tente novamente ou envie um correio eletrônico ao endereço indicado no site web.
+  sitelang: Idioma do site

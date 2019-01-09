@@ -3,9 +3,14 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
 				<p>&copy; {{ site.data.i18n[page.lang].title }} - {{ site.data.i18n[page.lang].subtitle }} {{ 'now' | date: "%Y" }} </p>
+				<p>
+					{% for phone in site.phone %}
+                    {{phone.author}} <a href="{{phone.attr}}">{{phone.value}}</a><br>
+                    {% endfor %}
+				</p>
 				<p class="social">
-					<a href="{{site.facebook_url}}" title="Facebook"><i class="icon icon-facebook-official"></i></a>
-					<a href="{{site.instagram}}" title="Facebook"><i class="icon icon-instagram"></i></a>
+					<a href="{{site.facebook_url}}" title="Minga Facebook"><i class="icon icon-facebook-official"></i></a>
+					<a href="{{site.instagram}}" title="Minga Instagram"><i class="icon icon-instagram"></i></a>
 				</p>
 			</div>
 			<div class="col-xs-12 col-sm-6 text-right">
@@ -15,7 +20,8 @@
 					<a href="#contact" title="{{ site.data.i18n[page.lang].contact }}">{{ site.data.i18n[page.lang].contact }}</a>
 				</p>
 				<p>
-					<select name="site_lang" onchange="window.location = '/' + this.optionList[this.selectedIndex].value">
+					<label for="site_lang">{{site.data.i18n[page.lang].sitelang}}</label>
+					<select name="site_lang" id="site_lang" onchange="window.location = '/' + this.options[this.selectedIndex].value">
 						{% for lang in site.langList %}
 						<option value="{{lang}}" {% if page.lang ==  lang %}selected{% endif %}>{{lang | upcase }}</option>
 						{% endfor %}

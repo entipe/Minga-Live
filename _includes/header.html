@@ -2,10 +2,14 @@
     <div class="site-hero__content">
         <div class="site-hero__content-inner">
             <h1 class="site-hero__title js-title"><span>{{site.data.i18n[page.lang].title}}</span></h1>
-            <p class="site-hero__subtitle js-subtitle">{{site.data.i18n[page.lang].subtitle}}</p>
+            <h2 class="site-hero__subtitle js-subtitle">{{site.data.i18n[page.lang].subtitle}}</h2>
             <a href="{{site.data.trailer[page.lang]}}" class="btn btn-primary btn-xl js-trailer-toggle">
-            {{site.data.i18n[page.lang].watchtrailer}}
-          </a>
+              {{site.data.i18n[page.lang].watchtrailer}}
+            </a>
+            <p class="site-hero__social">
+              <a href="{{site.facebook_url}}" title="Minga Facebook"><i class="icon icon-facebook-official"></i></a>
+              <a href="{{site.instagram}}" title="Minga Instagram"><i class="icon icon-instagram"></i></a>
+            </p>
         </div>
     </div>
     <div class="site-hero__slider js-banner">
