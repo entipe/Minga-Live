@@ -110,7 +110,7 @@ pt:
   contact: Contato
   title: Minga
   subtitle: Vozes de resistência
-  watchtrailer: Ver o trailer
+  watchtrailer: Assistir o trailer
   length: Duração
   length_value: Vídeo - 76 m 36 sec
   takeshot: Filmagens
@@ -119,12 +119,12 @@ pt:
   film_format_ratio_value: FullHD - 1920x1080
   vo_es: Versão original em espanhol
   vo_stfr: Versão legendada em português
-  film_location: Lugares de filmagem
+  film_location: Locais de filmagem
   film_location_value: Brasil, Argentina, Chile, Bolívia, Peru, Ecuador, Colombia, Honduras, Guatemala e México.
   film_language: Línguas originais
   film_language_value: Espanhol, Português, Guarani
   contact_body: >
-    Na medida da sua disponibilidade, Pauline e Damien podem estar presentes o día da projeção para intercambiar sobre o conteúdo do documental.
+    Na medida da sua disponibilidade, Pauline e Damien podem estar presentes o día da projeção para conversar sobre o conteúdo do documental.
   contact_title: Contacte-nos
   lastname: Nome
   email: Email
@@ -136,5 +136,5 @@ pt:
   privacy_checkbox: >
     Li a <a href="/en/privacy-policy" target="_blank">política de privacidade</a> e autorizo a utilização de dados pessoais.
   form_error: >
-    Um erro ocorreu, tente novamente ou envie um correio eletrônico ao endereço indicado no site web.
+    Um erro ocorreu, tente novamente ou envie um email para o endereço indicado no site web.
   sitelang: Idioma do site
