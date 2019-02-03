@@ -22,7 +22,7 @@ fr:
   contact_title: Contactez-nous
   lastname: Nom
   email: Email
-  message: Votre message 
+  message: Votre message
   fill_required_fields: Veuillez remplir les champs requis.
   message_sent: Votre message a bien été envoyé ! Merci.
   send: Envoyer
@@ -33,6 +33,21 @@ fr:
     Une erreur est survenue, veuillez réessayer ou utilisez directement une adresse e-mail indiquée sur le site web.
   version: Version
   sitelang: Langue du site
+  calendar: Agenda
+  infobooking: Infos et Réservations
+  months:
+    1: Jan
+    2: Fév
+    3: Mars
+    4: Avril
+    5: Mai
+    6: Juin
+    7: Juillet
+    8: Aout
+    9: Sept
+    10: Oct
+    11: Nov
+    12: Dec
 es:
   title: Minga
   about: Acerca
@@ -58,7 +73,7 @@ es:
   contact_title: Contáctenos
   lastname: Nombre
   email: Email
-  message: Su mensaje 
+  message: Su mensaje
   fill_required_fields: Sírvase completar los campos requeridos.
   message_sent: Su mensaje fue enviado! Gracias.
   send: Enviar
@@ -74,7 +89,7 @@ nl:
   version: Versie
   trailer: Trailer
   about: Over
-  contact: Contact 
+  contact: Contact
   subtitle: Stemmen van weerstand
   watchtrailer: Bekijk de trailer
   length: Duur
@@ -94,13 +109,13 @@ nl:
   contact_title: Contacteer ons
   lastname: Naam
   email: Email
-  message: Uw boodschap 
+  message: Uw boodschap
   fill_required_fields: Gelieve de vereiste velden in te vullen.
   message_sent: Uw boodschap is afgeleverd ! Bedankt.
   send: Verzenden
   sending: Verzending
   privacy_checkbox: >
-    Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld. 
+    Ik heb het <a href="/en/privacy-policy" target="_blank">privacybeleid</a> gelezen en ik aanvaard dat mijn persoonsgegevens worden behandeld.
   form_error: >
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
   sitelang: Sitetaal

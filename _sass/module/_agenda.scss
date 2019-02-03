@@ -1,0 +1,66 @@
+$color-date: #aaa;
+$color-bg: #f4f4f4;
+$color-border: #fff;
+$color-link: $color-date;
+
+$font-size-date: 24px;
+$font-size-title: 20px;
+
+$font-size-tiny: 14px;
+
+.section-agenda {
+  background: $color-bg;
+  padding: 40px 0 55px;
+}
+
+.agenda-item {
+  border-bottom: 1px solid $color-border;
+  margin-bottom: $gutter-size * 1.5;
+  padding-bottom: $gutter-size * 1.5;
+
+  &:last-of-type {
+    border-bottom: 0;
+  }
+
+  &__date {
+    color: $color-date;
+    font-size: $font-size-date;
+    margin-bottom: $gutter-size / 3;
+    display: block;
+    text-transform: uppercase;
+
+    > span {
+      font-size: $font-size-tiny;
+    }
+  }
+
+  &__title {
+    color: $color-primary-dark;
+    font-size: $font-size-title;
+    font-weight: strong;
+    margin: 0;
+    display: inline;
+  }
+
+  &__location {
+    color: $color-primary;
+    font-size: $font-size-tiny;
+    margin-left: $gutter-size / 3;
+
+    > i {
+      margin-right: -5px;
+    }
+  }
+
+  &__link {
+    border-bottom: 1px dotted $color-link;
+    color: $color-link;
+    font-size: $font-size-tiny;
+    margin-left: $gutter-size / 2;
+
+    > i {
+      font-size: 8px;
+      vertical-align: super;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{% assign m = include.date | date: "%-m" %}
+{{include.date | date: "%d"}}
+{% case m %}
+  {% when "1" %} {{site.data.i18n[page.lang].months[1] }}
+  {% when "2" %} {{site.data.i18n[page.lang].months[2] }}
+  {% when "3" %} {{site.data.i18n[page.lang].months[3] }}
+  {% when "4" %} {{site.data.i18n[page.lang].months[4] }}
+  {% when "5" %} {{site.data.i18n[page.lang].months[5] }}
+  {% when "6" %} {{site.data.i18n[page.lang].months[6] }}
+  {% when "7" %} {{site.data.i18n[page.lang].months[7] }}
+  {% when "8" %} {{site.data.i18n[page.lang].months[8] }}
+  {% when "9" %} {{site.data.i18n[page.lang].months[9] }}
+  {% when "10" %} {{site.data.i18n[page.lang].months[10] }}
+  {% when "11" %} {{site.data.i18n[page.lang].months[11] }}
+  {% when "12" %} {{site.data.i18n[page.lang].months[12] }}
+{% endcase %}
+{{include.date | date: "%Y"}}

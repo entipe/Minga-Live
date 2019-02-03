@@ -1,0 +1,15 @@
+- date: '2019-02-19 20:00'
+  place: Cinéma Nova
+  city: Bruxelles
+  link: http://www.quinoa.be/blog/minga-premiere/
+  full: true
+- date: '2019-02-20 19:00'
+  place : Café Truc
+  city: Ittre
+  link: https://www.facebook.com/events/534449253729936/
+  full: false
+- date: '2019-02-28 20:30'
+  place: Théatre Le Petit Mercelis
+  city: Ixelles
+  link: http://www.quinoa.be/blog/minga-premiere/
+  full: false
