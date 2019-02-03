@@ -84,6 +84,21 @@ es:
     Un error ocurrió, vuelva a intentarlo o envíe directamente un correo electrónico a la dirección indicada en el sitio web.
   version: Versión
   sitelang: Idioma del sitio
+  calendar: Agenda
+  infobooking: Infos et Réservations
+  months:
+    1: Jan
+    2: Fév
+    3: Mars
+    4: Avril
+    5: Mai
+    6: Juin
+    7: Juillet
+    8: Aout
+    9: Sept
+    10: Oct
+    11: Nov
+    12: Dec
 nl:
   title: Minga
   version: Versie
@@ -119,6 +134,21 @@ nl:
   form_error: >
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
   sitelang: Sitetaal
+  calendar: Agenda
+  infobooking: Infos et Réservations
+  months:
+    1: Jan
+    2: Fév
+    3: Mars
+    4: Avril
+    5: Mai
+    6: Juin
+    7: Juillet
+    8: Aout
+    9: Sept
+    10: Oct
+    11: Nov
+    12: Dec
 pt:
   trailer: Trailer
   about: Sobre
@@ -153,3 +183,18 @@ pt:
   form_error: >
     Um erro ocorreu, tente novamente ou envie um email para o endereço indicado no site web.
   sitelang: Idioma do site
+  calendar: Agenda
+  infobooking: Infos et Réservations
+  months:
+    1: Jan
+    2: Fév
+    3: Mars
+    4: Avril
+    5: Mai
+    6: Juin
+    7: Juillet
+    8: Aout
+    9: Sept
+    10: Oct
+    11: Nov
+    12: Dec
