@@ -85,16 +85,16 @@ es:
   version: Versión
   sitelang: Idioma del sitio
   calendar: Agenda
-  infobooking: Infos et Réservations
+  infobooking: Infos and booking
   months:
     1: Jan
-    2: Fév
-    3: Mars
-    4: Avril
-    5: Mai
-    6: Juin
-    7: Juillet
-    8: Aout
+    2: Feb
+    3: Mar
+    4: Apr
+    5: May
+    6: June
+    7: July
+    8: Aug
     9: Sept
     10: Oct
     11: Nov
@@ -135,16 +135,16 @@ nl:
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
   sitelang: Sitetaal
   calendar: Agenda
-  infobooking: Infos et Réservations
+  infobooking: Infos and booking
   months:
     1: Jan
-    2: Fév
-    3: Mars
-    4: Avril
-    5: Mai
-    6: Juin
-    7: Juillet
-    8: Aout
+    2: Feb
+    3: Mar
+    4: Apr
+    5: May
+    6: June
+    7: July
+    8: Aug
     9: Sept
     10: Oct
     11: Nov
@@ -184,16 +184,16 @@ pt:
     Um erro ocorreu, tente novamente ou envie um email para o endereço indicado no site web.
   sitelang: Idioma do site
   calendar: Agenda
-  infobooking: Infos et Réservations
+  infobooking: Infos and booking
   months:
     1: Jan
-    2: Fév
-    3: Mars
-    4: Avril
-    5: Mai
-    6: Juin
-    7: Juillet
-    8: Aout
+    2: Feb
+    3: Mar
+    4: Apr
+    5: May
+    6: June
+    7: July
+    8: Aug
     9: Sept
     10: Oct
     11: Nov
