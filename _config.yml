@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://minga-docu.net" # the base hostname & protocol for your site
 langList:
   - es #change aussi dans index.html!
-  - fr 
+  - fr
   - nl
   - pt
 api_url: '//api.minga-docu.net/form.php'
@@ -47,6 +47,8 @@ exclude:
   - webpack.config.js
   - webpack.prod.js
   - api/
+  - .editorconfig
+  - .gitignore
 
 sass:
     style: compressed

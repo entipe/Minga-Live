@@ -1,4 +1,4 @@
-$fontello-version : 8;
+$fontello-version : 9;
 
 /* latin */
 @font-face {
@@ -63,7 +63,7 @@ $fontello-version : 8;
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
 }
- 
+
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -103,7 +103,9 @@ $fontello-version : 8;
 .icon-cancel-1:before { content: '\e801'; } /* '' */
 .icon-mail:before { content: '\e802'; } /* '' */
 .icon-menu:before { content: '\e803'; } /* '' */
+.icon-location:before { content: '\e813'; } /* '' */
 .icon-spin3:before { content: '\e832'; } /* '' */
+.icon-link-ext:before { content: '\f08e'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-angle-double-down:before { content: '\f103'; } /* '' */
 .icon-angle-left:before { content: '\f104'; } /* '' */

@@ -1,5 +1,17 @@
-<section id="agenda">
+<section id="agenda" class="section-agenda">
+    <header class="container text-center">
+      <h2 class="section-heading">{{site.data.i18n[page.lang].calendar}}</h2>
+    </header>
     <div class="container">
-        Agenda
+      {% assign venues = site.data.agenda %}
+      {% for venue in venues %}
+      <article class="agenda-item">
+        <header>
+          <time class="agenda-item__date" datetime="{{venue.date | date: "%F" }}">{% include date.html date=venue.date %} <span>{{venue.date | date: "%H:%M" }}</span> </time>
+          </header>
+          <h3 class="agenda-item__title">{{venue.place}} <span class="agenda-item__location"><i class="icon icon-location"></i> {{venue.city}}</span></h3>
+          <a class="agenda-item__link" href="{{venue.link}}">{{site.data.i18n[page.lang].infobooking}} <i class="icon icon-link-ext"></i></a>
+      </article>
+      {% endfor %}
     </div>
 </section>
