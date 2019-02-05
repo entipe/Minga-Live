@@ -36,18 +36,18 @@ fr:
   calendar: Agenda
   infobooking: Infos et Réservations
   months:
-    1: Jan
-    2: Fév
+    1: Janv
+    2: Févr
     3: Mars
     4: Avril
     5: Mai
     6: Juin
-    7: Juillet
+    7: Juil
     8: Aout
     9: Sept
     10: Oct
     11: Nov
-    12: Dec
+    12: Déc
 es:
   title: Minga
   about: Acerca
@@ -85,20 +85,20 @@ es:
   version: Versión
   sitelang: Idioma del sitio
   calendar: Agenda
-  infobooking: Infos and booking
+  infobooking: Informaciónes y Reservación
   months:
-    1: Jan
+    1: Ene
     2: Feb
     3: Mar
-    4: Apr
-    5: May
-    6: June
-    7: July
-    8: Aug
+    4: Abr
+    5: Mayo
+    6: Jun
+    7: Jul
+    8: Ago
     9: Sept
     10: Oct
     11: Nov
-    12: Dec
+    12: Dic
 nl:
   title: Minga
   version: Versie
@@ -135,18 +135,18 @@ nl:
     Een fout is opgetreden, probeer het opnieuw of gebruik een email adres aangeduid op de website.
   sitelang: Sitetaal
   calendar: Agenda
-  infobooking: Infos and booking
+  infobooking: Infos en Boeking
   months:
     1: Jan
     2: Feb
-    3: Mar
+    3: Mrt
     4: Apr
-    5: May
-    6: June
-    7: July
+    5: Mei
+    6: Jun
+    7: Jul
     8: Aug
     9: Sept
-    10: Oct
+    10: Okt
     11: Nov
     12: Dec
 pt:
@@ -184,17 +184,17 @@ pt:
     Um erro ocorreu, tente novamente ou envie um email para o endereço indicado no site web.
   sitelang: Idioma do site
   calendar: Agenda
-  infobooking: Infos and booking
+  infobooking: Informações e Reserva
   months:
     1: Jan
-    2: Feb
+    2: Fev
     3: Mar
-    4: Apr
-    5: May
-    6: June
-    7: July
-    8: Aug
-    9: Sept
-    10: Oct
+    4: Abr
+    5: Maio
+    6: Jun
+    7: Jul
+    8: Ago
+    9: Set
+    10: Out
     11: Nov
-    12: Dec
+    12: Dez
