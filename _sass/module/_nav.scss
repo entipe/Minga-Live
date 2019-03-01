@@ -128,7 +128,7 @@ $color-bg: rgba(black, .8);
 
 	&.is-active &__list {
 		opacity: 1;
-		max-height: 200px;
+		max-height: 255px;
 	}
 
 	&__list &__toggle {

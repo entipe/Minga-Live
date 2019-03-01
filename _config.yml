@@ -9,6 +9,7 @@ langList:
   - fr
   - nl
   - pt
+  - it
 api_url: '//api.minga-docu.net/form.php'
 
 company:

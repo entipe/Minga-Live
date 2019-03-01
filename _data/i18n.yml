@@ -198,3 +198,52 @@ pt:
     10: Out
     11: Nov
     12: Dez
+it:
+  trailer: Trailer
+  about: A proposito
+  contact: Contatto
+  title: Minga
+  subtitle: Voci di resistenza
+  watchtrailer: Guarda il trailer
+  length: Durata
+  length_value: Video - 76 m 36 sec
+  takeshot: Immagini
+  takeshot_value: Digitali (25fps)
+  film_format_ratio: Formato
+  film_format_ratio_value: FullHD - 1920x1080
+  vo_es: Versione originale in spagnolo
+  vo_stfr: Versione sottotitolata in italiano
+  film_location: Set
+  film_location_value: Brasile, Argentina, Cile, Bolivia, Perù, Ecuador, Colombia, Honduras, Guatemala e Messico.
+  film_language: Lingue originali
+  film_language_value: Spagnolo, Portoghese, Guarani
+  contact_body: >
+    Nella misura del possibile, Pauline e Damien possono recarsi alla vostra proiezione per una discussione sui contenuti del film.
+  contact_title: Contattaci
+  lastname: Nome
+  email: Email
+  message: Messaggio
+  fill_required_fields: Si prega di inserire le informazioni richieste.
+  message_sent: Il messaggio è stato inviato ! Grazie.
+  send: Inviare
+  sending: Invio
+  privacy_checkbox: >
+    Ho letto <a href="/en/privacy-policy" target="_blank">l’informativa sulla privacy</a> e accetto il trattamento dei miei dati personali.
+  form_error: >
+    Si è verificato un errore, si prega di riprovare o di utilizzare direttamente l’indirizzo mail indicato sul sito.
+  sitelang: Lingua del sito
+  calendar: Agenda
+  infobooking: Informazioni e Prenotazione
+  months:
+    1: Gen
+    2: Feb
+    3: Mar
+    4: Apr
+    5: Mag
+    6: Giu
+    7: Lug
+    8: Ago
+    9: Set
+    10: Ott
+    11: Nov
+    12: Dic
