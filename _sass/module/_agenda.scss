@@ -26,7 +26,6 @@ $font-size-tiny: 14px;
     color: $color-date;
     font-size: $font-size-date;
     margin-bottom: $gutter-size / 3;
-    display: block;
     text-transform: uppercase;
 
     > span {
@@ -62,5 +61,13 @@ $font-size-tiny: 14px;
       font-size: 8px;
       vertical-align: super;
     }
+  }
+
+  &__lang {
+    padding: 2px 7px;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 10px;
   }
 }
