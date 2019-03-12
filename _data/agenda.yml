@@ -1,13 +1,7 @@
-- date: '2019-02-19 20:00'
-  place: Cinéma Nova
+- date: '2019-04-03 19:30'
+  place: Aventure Ciné Confort
   city: Bruxelles
-  link: http://www.quinoa.be/blog/minga-premiere/
-  full: true
-  lang: FR
-- date: '2019-02-20 20:00'
-  place : Café Truc
-  city: Ittre
-  link: https://www.facebook.com/events/534449253729936/
+  link: https://cinema-aventure.be/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=2615&cntnt01returnid=45
   full: false
   lang: FR
 - date: '2019-02-28 20:00'
@@ -16,9 +10,15 @@
   link: http://www.quinoa.be/blog/minga-premiere/
   full: false
   lang: FR
-- date: '2019-04-03 19:30'
-  place: Aventure Ciné Confort
-  city: Bruxelles
-  link: https://cinema-aventure.be/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=2615&cntnt01returnid=45
+- date: '2019-02-20 20:00'
+  place : Café Truc
+  city: Ittre
+  link: https://www.facebook.com/events/534449253729936/
   full: false
+  lang: FR
+- date: '2019-02-19 20:00'
+  place: Cinéma Nova
+  city: Bruxelles
+  link: http://www.quinoa.be/blog/minga-premiere/
+  full: true
   lang: FR
