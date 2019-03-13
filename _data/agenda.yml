@@ -1,5 +1,11 @@
+- date: '2019-05-11 18:00'
+  place: Bar Commun
+  city: Paris
+  link: https://www.facebook.com/events/344138176214373/
+  full: false
+  lang: FR
 - date: '2019-04-03 19:30'
-  place: Aventure Ciné Confort
+  place: Aventure Ciné Aventure
   city: Bruxelles
   link: https://cinema-aventure.be/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=2615&cntnt01returnid=45
   full: false
