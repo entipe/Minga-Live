@@ -1,7 +1,7 @@
 - date: '2019-06-11 19:00'
-  place: Au Cercle des Voyageurs
+  place: Le Cercle des Voyageurs
   city: Bruxelles
-  link: 
+  link: https://www.lecercledesvoyageurs.com/mondocultures/agenda
   full: false
   lang: FR
 - date: '2019-05-11 18:00'
@@ -13,13 +13,13 @@
   - date: '2019-05-07 19:00'
   place: TransiStore
   city: Etterbeek
-  link: 
+  link: http://www.transistore.be/calendar/
   full: false
   lang: FR
   - date: '2019-04-25 19:00'
   place: Latino Amerikap
   city: Louvain-La-Neuve
-  link: 
+  link: https://www.facebook.com/Latino-Amerikap-1181065805243068/
   full: false
   lang: FR
 - date: '2019-04-03 19:30'
