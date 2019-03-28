@@ -1,7 +1,25 @@
+- date: '2019-06-11 19:00'
+  place: Au Cercle des Voyageurs
+  city: Bruxelles
+  link: 
+  full: false
+  lang: FR
 - date: '2019-05-11 18:00'
   place: Bar Commun
   city: Paris
   link: https://www.facebook.com/events/344138176214373/
+  full: false
+  lang: FR
+  - date: '2019-05-07 19:00'
+  place: TransiStore
+  city: Etterbeek
+  link: 
+  full: false
+  lang: FR
+  - date: '2019-04-25 19:00'
+  place: Latino Amerikap
+  city: Louvain-La-Neuve
+  link: 
   full: false
   lang: FR
 - date: '2019-04-03 19:30'
