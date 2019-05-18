@@ -9,3 +9,4 @@ require('./scroll.js');
 require('./nav.js');
 require('./trailer.js');
 require('./form.js');
+require('./readmore.js');

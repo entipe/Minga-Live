@@ -1,0 +1,26 @@
+.section-agenda {
+  .agenda-item--more {
+    display: none;
+  }
+
+  .view-more-btn {
+    .show-more {
+      display: inline;
+    }
+    .show-less {
+      display: none;
+    }
+  }
+
+  .is-active {
+    .agenda-item--more {
+      display: block
+    }
+    .show-more {
+      display: none;
+    }
+    .show-less {
+      display: block;
+    }
+  }
+}

@@ -2,10 +2,10 @@
     <header class="container text-center">
       <h2 class="section-heading">{{site.data.i18n[page.lang].calendar}}</h2>
     </header>
-    <div class="container">
+    <div class="container js-view-more-container">
       {% assign venues = site.data.agenda %}
       {% for venue in venues %}
-      <article class="agenda-item">
+      <article class="agenda-item {% if forloop.index > 10 %}agenda-item--more{% endif %}">
         <header>
           <time class="agenda-item__date" datetime="{{venue.date | date: "%F" }}">{% include date.html date=venue.date %} <span>{{venue.date | date: "%H:%M" }}</span> </time>
           <small class="agenda-item__lang">{{venue.lang}}</small>
@@ -14,5 +14,17 @@
           <a class="agenda-item__link" href="{{venue.link}}">{{site.data.i18n[page.lang].infobooking}} <i class="icon icon-link-ext"></i></a>
       </article>
       {% endfor %}
+      {% if venues.size > 10 %}
+      <footer>
+        <a href="#" class="btn btn-default btn-red view-more-btn js-view-more-button">
+          <span class="show-more">
+            <i class="icon icon-plus"></i> {{site.data.i18n[page.lang].view_all_dates}}
+          </span>
+          <span class="show-less">
+            {{site.data.i18n[page.lang].less}}
+          </span>
+        </a>
+      </footer>
+      {% endif %}
     </div>
 </section>

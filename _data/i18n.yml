@@ -1,4 +1,6 @@
 fr:
+  view_all_dates: All dates
+  less: Moins
   trailer: Trailer
   about: A propos
   contact: Contact
@@ -49,6 +51,8 @@ fr:
     11: Nov
     12: Déc
 es:
+  view_all_dates: Todas las fechas
+  less: Less
   title: Minga
   about: Acerca
   contact: Contacto
@@ -100,6 +104,8 @@ es:
     11: Nov
     12: Dic
 nl:
+  view_all_dates: Alle datums
+  less: Minder
   title: Minga
   version: Versie
   trailer: Trailer
@@ -150,6 +156,8 @@ nl:
     11: Nov
     12: Dec
 pt:
+  view_all_dates: Todas as datas
+  less: Menos
   trailer: Trailer
   about: Sobre
   contact: Contato
@@ -199,6 +207,8 @@ pt:
     11: Nov
     12: Dez
 it:
+  view_all_dates: Tutte le date
+  less: Meno
   trailer: Trailer
   about: A proposito
   contact: Contatto
@@ -248,6 +258,8 @@ it:
     11: Nov
     12: Dic
 en:
+  view_all_dates: All dates
+  less: Less
   trailer: Trailer
   about: About
   contact: Contact
