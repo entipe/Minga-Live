@@ -10,6 +10,12 @@
   link: https://www.facebook.com/foyerculturelsprimont/
   full: false
   lang: FR
+- date: '2019-09-28 14:00'
+  place: LDC De regenboog
+  city: Gent
+  link: http://www.honducaras.be
+  full: false
+  lang: NL
 - date: '2019-09-12 19:30'
   place: Haute-Sambre en transition
   city: Lobbes
@@ -26,6 +32,18 @@
   place: Centre communautaire du Chant d'Oiseau
   city: Woluwe-Saint-Pierre
   link: https://www.facebook.com/events/583165715507839/
+  full: false
+  lang: FR
+- date: '2019-06-27 19:00'
+  place: Maison de la Paix
+  city: Ixelles
+  link: https://www.scibelgium.be/
+  full: false
+  lang: FR
+- date: '2019-06-25 19:00'
+  place: Maison de l'Amérique latine
+  city: Ixelles
+  link: 
   full: false
   lang: FR
 - date: '2019-06-12 19:30'
