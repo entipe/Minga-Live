@@ -7,6 +7,7 @@ webfont.init(['PT Sans', 'fontello'], ['/css/font.css'])
 require('./banner.js');
 require('./scroll.js');
 require('./nav.js');
+require('./date.js');
 require('./trailer.js');
 require('./form.js');
 require('./readmore.js');
