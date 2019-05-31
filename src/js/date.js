@@ -19,7 +19,7 @@ define(function() {
     });
 
     $itemList = getItemList();
-    if ($itemList.length >= MAX_ITEM) {
+    if ($itemList.length > MAX_ITEM) {
       for (let i = MAX_ITEM; i < $itemList.length; i++) {
         $itemList[i].classList.remove('is-active');
       }
