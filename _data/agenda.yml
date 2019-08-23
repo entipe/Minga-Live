@@ -1,9 +1,51 @@
-- date: '2019-11-22 19:00'
+- date: '2019-12-07 20:00'
   place: Salle Perez
   city: Chaumont-Gistoux
-  link: http://www.centreculturelchaumont-gistoux.be/index.html
+  link: http://www.centreculturelchaumont-gistoux.be/CONF%C3%89RENCE%20De%20la%20Patagonie%20au%20Mexique.html
   full: false
   lang: FR
+- date: '2019-12-03 19:30'
+  place: L'Entrela' - Centre culturel Evere
+  city: Evere
+  link: http://www.lentrela.be/evenement/minga-voix-de-resistance/
+  full: false
+  lang: FR
+- date: '2019-11-26 20:00'
+  place: Pangea Office - DocuLatino CATAPA
+  city: Leuven
+  link: https://catapa.be/nl/
+  full: false
+  lang: NL
+- date: '2019-11-22 19:00'
+  place: La Tchatche
+  city: Chastre
+  link: http://www.latchatche.be/
+  full: false
+  lang: FR
+- date: '2019-11-21 19:00'
+  place: Centre culturel de Braine-l’Alleud
+  city: Braine-l’Alleud
+  link: https://www.braineculture.be/art-et-societe
+  full: false
+  lang: FR
+- date: '2019-11-17 17:00'
+  place: Centre culturel d'Engis
+  city: Engis
+  link: http://ccengis.be/agenda/present/25/1/10/413/minga-voix-de-resistance-dimanche-17-novembre-2019-de-18h00-a-20h30
+  full: false
+  lang: FR
+- date: '2019-11-07 20:00'
+  place: Filmhouse Klappei - DocuLatino CATAPA
+  city: Antwerpen
+  link: https://catapa.be/nl/
+  full: false
+  lang: NL
+- date: '2019-11-06 20:00'
+  place: Studio Skoop - DocuLatino CATAPA
+  city: Gent
+  link: https://catapa.be/nl/
+  full: false
+  lang: NL
 - date: '2019-10-23 20:00'
   place: Salle Allard L'Olivier, Hôtel de ville de Quaregnon
   city: Quaregnon
