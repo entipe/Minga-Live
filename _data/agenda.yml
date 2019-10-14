@@ -34,18 +34,24 @@
   link: http://ccengis.be/agenda/present/25/1/10/413/minga-voix-de-resistance-dimanche-17-novembre-2019-de-18h00-a-20h30
   full: false
   lang: FR
-- date: '2019-11-06 20:00'
-  place: Studio Skoop - DocuLatino CATAPA
-  city: Gent
-  link: https://catapa.be/nl/activiteit/doculatino-ghent-tracing-the-ict-supply-chain/?instance_id=160
-  full: false
-  lang: NL
 - date: '2019-11-13 20:00'
   place: Pianofabriek - DocuLatino CATAPA
   city: Brussel
   link: https://catapa.be/nl/activiteit/doculatino-brussels-tracing-the-ict-supply-chain/
   full: false
   lang: NL
+- date: '2019-11-06 20:00'
+  place: Studio Skoop - DocuLatino CATAPA
+  city: Gent
+  link: https://catapa.be/nl/activiteit/doculatino-ghent-tracing-the-ict-supply-chain/?instance_id=160
+  full: false
+  lang: NL
+- date: '2019-11-01 19:30'
+  place: Pôle Sud centre socio-culturel de l'Union Syndicale Vaudoise - Festival Onirique des Libertés
+  city: Lausanne (Suisse)
+  link: https://www.folfestival.org/programme-2019
+  full: false
+  lang: FR
 - date: '2019-10-25 19:00'
   place: BOOM café associatif
   city: Bruxelles
