@@ -52,6 +52,12 @@
   link: https://www.folfestival.org/programme-2019
   full: false
   lang: FR
+- date: '2019-10-29 18:00'
+  place: Université de Montreal Pavillon Lionel-Groulx
+  city: Montréal (Canada)
+  link: /
+  full: false
+  lang: FR
 - date: '2019-10-25 19:00'
   place: BOOM café associatif
   city: Bruxelles
