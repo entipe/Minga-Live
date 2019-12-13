@@ -1,3 +1,39 @@
+- date: '2020-05-17 18:00'
+  place: Ciné Cagire
+  city: Aspet (France)
+  link: https://www.cinecagire.fr
+  full: false
+  lang: FR
+- date: '2020-04-23 20:00'
+  place: Festival Pico y Pala
+  city: Paris (France)
+  link: http://picoypala.org/festival/
+  full: false
+  lang: FR
+- date: '2020-02-28 20:00'
+  place: Centre Paris Anim
+  city: Paris (France)
+  link: http://picoypala.org/
+  full: false
+  lang: FR
+- date: '2020-02-21 20:00'
+  place: Green Image Film Festival
+  city: Tokyo (Japan)
+  link: https://green-image.jp/en/
+  full: false
+  lang: EN
+- date: '2020-02-02 20:00'
+  place: Espace Senghor
+  city: Etterbeek
+  link: https://www.senghor.be/
+  full: false
+  lang: FR
+- date: '2020-01-11 20:00'
+  place: La Maison de l'Amérique Latine de Marseille
+  city: Marseille (France)
+  link: https://www.maisonlatinecaraibes.com
+  full: false
+  lang: FR
 - date: '2019-12-07 20:00'
   place: Salle Perez
   city: Chaumont-Gistoux
