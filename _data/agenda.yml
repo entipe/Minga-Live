@@ -16,6 +16,12 @@
   link: http://picoypala.org/
   full: false
   lang: FR
+- date: '2020-02-27 20:00'
+  place: Institut Culturel du Mexique
+  city: Paris (France)
+  link: https://icm.sre.gob.mx/francia/index.php/es/
+  full: false
+  lang: FR
 - date: '2020-02-21 20:00'
   place: Green Image Film Festival
   city: Tokyo (Japan)
@@ -28,10 +34,10 @@
   link: https://www.senghor.be/
   full: false
   lang: FR
-- date: '2020-01-11 20:00'
+- date: '2020-01-11 19:00'
   place: La Maison de l'Amérique Latine de Marseille
   city: Marseille (France)
-  link: https://www.maisonlatinecaraibes.com
+  link: https://www.maisonlatinecaraibes.com/tertulia-et-bal-latino-janvier-2020/
   full: false
   lang: FR
 - date: '2019-12-07 20:00'
