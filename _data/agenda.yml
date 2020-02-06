@@ -11,21 +11,27 @@
   full: false
   lang: FR
 - date: '2020-02-28 19:00'
-  place: Centre Paris Anim'
+  place: Centre Ken Saro-Wiwa
   city: Paris (France)
   link: http://picoypala.org/
   full: false
   lang: FR
-- date: '2020-02-27 20:00'
+- date: '2020-02-27 18:30'
   place: Institut Culturel du Mexique
   city: Paris (France)
   link: https://icm.sre.gob.mx/francia/index.php/es/
   full: false
   lang: FR
-- date: '2020-02-21 20:00'
+- date: '2020-02-21 17:40'
   place: Green Image Film Festival
   city: Tokyo (Japan)
-  link: https://green-image.jp/en/
+  link: https://green-image.jp/en/filmfestivals/7th/
+  full: false
+  lang: EN
+- date: '2020-02-07 19:00'
+  place: PlanB
+  city: Lüneburg (Germany)
+  link: https://www.facebook.com/events/501114544119092/
   full: false
   lang: EN
 - date: '2020-02-02 18:00'
