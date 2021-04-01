@@ -3,6 +3,7 @@
       <h2 class="section-heading">{{site.data.i18n[page.lang].calendar}}</h2>
     </header>
     <div class="container js-view-more-container js-item-date-container">
+      <div class="agenda-item__empty hidden js-item-date-empty"><em>{{site.data.i18n[page.lang].no_date}}</em></div>
       {% assign venues = site.data.agenda | sort: 'date' %}
       {% for venue in venues %}
       <article class="agenda-item is-active js-item-date" data-date="{{venue.date | date: '%s'}}">

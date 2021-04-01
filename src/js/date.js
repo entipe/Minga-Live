@@ -1,6 +1,7 @@
 define(function() {
   const ITEM_CLASS = '.js-item-date';
   const ITEM_CONTAINER_CLASS = '.js-item-date-container';
+  const ITEM_EMPTY_CLASS = '.js-item-date-empty';
   const CURRENT_DATE = new Date();
   const $itemContainer = document.querySelector(ITEM_CONTAINER_CLASS);
   const MAX_ITEM = 10;
@@ -25,6 +26,10 @@ define(function() {
       }
     } else {
       document.querySelector('.js-view-more-button-container').classList.add('hidden');
+
+      if ($itemList.length === 0) {
+        document.querySelector(ITEM_EMPTY_CLASS).classList.remove('hidden');
+      }
     }
   }
 

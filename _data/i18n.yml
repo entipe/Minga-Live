@@ -50,6 +50,7 @@ fr:
     10: Oct
     11: Nov
     12: Déc
+  no_date: Pas de date pour l'instant
 es:
   view_all_dates: Todas las fechas
   less: Less
@@ -103,6 +104,7 @@ es:
     10: Oct
     11: Nov
     12: Dic
+  no_date:
 nl:
   view_all_dates: Alle datums
   less: Minder
@@ -155,6 +157,7 @@ nl:
     10: Okt
     11: Nov
     12: Dec
+  no_date:
 pt:
   view_all_dates: Todas as datas
   less: Menos
@@ -206,6 +209,7 @@ pt:
     10: Out
     11: Nov
     12: Dez
+  no_date:
 it:
   view_all_dates: Tutte le date
   less: Meno
@@ -257,6 +261,7 @@ it:
     10: Ott
     11: Nov
     12: Dic
+  no_date:
 en:
   view_all_dates: All dates
   less: Less
@@ -308,3 +313,4 @@ en:
     10: Oct
     11: Nov
     12: Dec
+  no_date:
