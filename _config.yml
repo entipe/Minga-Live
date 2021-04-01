@@ -51,6 +51,7 @@ exclude:
   - api/
   - .editorconfig
   - .gitignore
+  - .idea/
 
 sass:
     style: compressed
